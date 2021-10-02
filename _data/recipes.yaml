@@ -1,8 +1,8 @@
 ---
 - title: Basic Muffin
-description: This is based on the basic muffin recipe from Mark Bittman's How to Cook Everything cookbook.
-category: breakfast
-ingredients:
+  description: This is based on the basic muffin recipe from Mark Bittman's How to Cook Everything cookbook.
+  category: breakfast
+  ingredients:
   - 3 Tbps melted butter
   - 2 cups all-purpose flour
   - 1/4 cup sugar
@@ -25,9 +25,9 @@ ingredients:
   cooktime: 20
   servings: 12
 - title: Friends & Family Granola
-description: This is based on the granola recipe from Roxana Jullapart's Mother Grains cookbook.
-category: breakfast
-ingredients:
+  description: This is based on the granola recipe from Roxana Jullapart's Mother Grains cookbook.
+  category: breakfast
+  ingredients:
   - 160 g old-fashioned rolled oats
   - 40 g raw whole almonds
   - 20 g raw walnut halves
@@ -59,6 +59,6 @@ ingredients:
   preptime: 10
   cooktime: 45
   servings: 6
-  
+
 
 
