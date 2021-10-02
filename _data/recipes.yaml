@@ -1,0 +1,64 @@
+---
+- title: Basic Muffin
+description: This is based on the basic muffin recipe from Mark Bittman's How to Cook Everything cookbook.
+category: breakfast
+ingredients:
+  - 3 Tbps melted butter
+  - 2 cups all-purpose flour
+  - 1/4 cup sugar
+  - 1/2 tsp salt
+  - 3 tsp baking powder
+  - 1 egg
+  - 1 cup milk, plus more if needed
+  cuisine: American 
+  date: 2021-10-02
+  instructions:
+    - Preheat oven to 400 F. Line 12 compartments of standard muffin tin with paper (or grease tin).
+    - Mix together the dry ingredients in a bowl.
+    - Beat the melted butter, egg, and milk in a bowl. 
+    - Make a well in the center of the dry ingredients and add the wet ingredients. Stir swiftly, until combined. The batter should be lumpy, not smooth but quite moist. Add more milk if necessary.
+    - Spoon batter into muffin tins, filling about two-thirds full.
+    - Bake 18 minutes or until toothpick inserted into center comes out clean.
+    - Cool for 5 minutes before taking out of the tin.
+  calories: 132
+  preptime: 10
+  cooktime: 20
+  servings: 12
+- title: Friends & Family Granola
+description: This is based on the granola recipe from Roxana Jullapart's Mother Grains cookbook.
+category: breakfast
+ingredients:
+  - 160 g old-fashioned rolled oats
+  - 40 g raw whole almonds
+  - 20 g raw walnut halves
+  - 35 g raw whole cashews
+  - 40 g pumpkin seeds
+  - 35 g shelled sunflower seeds
+  - 2 Tbps sesame seeds
+  - 2 Tbps flaxseed
+  - 45 g unsweetened shredded coconut
+  - 2 Tbps dehydrated coconut milk
+  - 25 g almond flour
+  - 1 1/2 tsp ground cinnamon
+  - 1/8 tsp freshly grated nutmet
+  - 1/8 tsp ground cloves
+  - 1/4 cup honey
+  - 1/4 cup applesauce
+  - 1/4 cup vegetable oil
+  - 1 Tbps vanilla extract
+  - 1/2 tsp kosher salt
+  cuisine: American
+  date: 2020-10-02
+  instructions:
+    - Preheat oven to 300 F. Spray a baking sheet lightly with nonstick spray.
+    - Combine the oats, almonds, walnuts, cashews, pumpkin seeds, sunflower seeds, sesame seeds, flaxseed, coconut, coconut milk, almond flour, and spices in a medium bowl.
+    - In a small saucepan, combine the honey, maple syrup, applesauce, oil, vanilla, and salt and heat while stirring constantly, until the mixture is lukewarm. Add the warm liquids to the oat mixture and combine until everything is coated.
+    - Spread on the baking sheet and toast for 45 minutes, stirring every 15 minutes.
+    - Remove from the oven and spread onto a sheet of parchment paper to cool. Let it cool completely before transferring to an airtight container.
+  calories: 468
+  preptime: 10
+  cooktime: 45
+  servings: 6
+  
+
+
