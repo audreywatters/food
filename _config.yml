@@ -5,7 +5,6 @@ highlighter: rouge
 # Site settings
 title: "Food & Drink"
 description: > # this means to ignore newlines until "email:"
-   Maybe a Memoir
 
 email: mail@audreywatters.com
 #blog logo
@@ -50,3 +49,5 @@ social:
     url:  mailto:mail@audreywatters.com
     desc: Email  
   
+# Gems
+plugins: [jekyll-paginate]

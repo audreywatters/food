@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Food &amp; Drink</title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 04 Oct 2021 14:56:30 -0700</pubDate>
+    <lastBuildDate>Mon, 04 Oct 2021 14:56:30 -0700</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>What Is a Muffin?</title>
+        <description>&lt;p&gt;&lt;em&gt;The Great Muffin Experiment, Volume 1&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sometimes when I bake cupcakes, Kin will call them &amp;quot;muffins&amp;quot; just to annoy me. &amp;quot;They're cupcakes,&amp;quot; I insist. &amp;quot;Are they?&amp;quot; he'll tease.&lt;/p&gt;
+
+&lt;p&gt;Are they, indeed. What exactly &lt;em&gt;is&lt;/em&gt; a muffin, and how is it different than a cupcake? &lt;em&gt;Or is it&lt;/em&gt;? &lt;/p&gt;
+
+&lt;p&gt;It's easy to joke about confusing the two. Both are baked in muffin tins — muffin tins often lined with cupcake papers. And the etymology doesn't help clarify things — a cake baked in a cup seems obvious. But the word &amp;quot;muffin&amp;quot; is possibly derived from the Low German &amp;quot;&lt;em&gt;muffen&lt;/em&gt;,&amp;quot; plural of &amp;quot;&lt;em&gt;muffe&lt;/em&gt;&amp;quot; or &amp;quot;small cake.&amp;quot; Possibly — what we know now as the small cake-like muffin is different from the small yeasted bread known as the crumpet or English muffin. It's confusing.&lt;/p&gt;
+
+&lt;p&gt;There are, of course, ways we distinguish the two: cupcakes can be frosted, for example; muffins are less likely to be, although they can be glazed. Muffins purport to be healthy; you can get away with eating one for breakfast, while it's generally frowned upon to eat a cupcake for the first meal of the day. I say &amp;quot;purport to be healthy,&amp;quot; because muffins are still quite sweet and even with &amp;quot;healthy&amp;quot; additions like flax seed and oats and dried fruit, they can contain about as much sugar and fat as a cupcake. There are, for what it's worth, about &lt;a href=&quot;https://www.fatsecret.com/calories-nutrition/starbucks/chocolate-chunk-muffin&quot;&gt;440 calories in the Starbucks Chocolate Chunk Muffin&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In fact, the difference between a muffin and a cupcake is not in the ingredients or the calories or the topping or the time of day they're consumed. Rather, &lt;strong&gt;the difference is in how the batter is assembled&lt;/strong&gt;. Cupcakes are, as the name suggests, typically made the same way that cakes are: by creaming the butter and sugar, then adding the eggs and beating until light and fluffy. The dry ingredients — flour, salt, and baking powder, for example — are then added alternately with milk. Muffins are more akin to a quick bread insofar as the dry ingredients (including the sugar) are mixed together; the wet ingredients are mixed together separately; and then the two are combined quickly, without too much stirring — that would develop gluten and make the muffins chewy. Lumps are bad in your cake batter; lumps are fine in your muffin batter.&lt;/p&gt;
+
+&lt;p&gt;(This distinction works well right up until you consider all the &amp;quot;just add water&amp;quot; varieties of &amp;quot;instant&amp;quot; (read: microwavable) mixes. Then, I guess, it's quick bread all the way down.)&lt;/p&gt;
+
+&lt;p&gt;&lt;h2&gt;Basic Muffin Recipe&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://audreywatters.s3.amazonaws.com/2021-10-04-basic2.jpg&quot;&gt;
+
+&lt;p&gt;&lt;h2&gt;Some Baking Notes&lt;/h2&gt;&lt;/p&gt;
+
+&lt;p&gt;If we think of this as the &amp;quot;ur&amp;quot; muffin — a stretch, but bear with me — then there's lots of room for exploration. You can think of all these ingredients are variables to be played with — more sugar, different flour, different fat, for starters. And that's some of what I'll explore throughout The Great Muffin Experiment. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://audreywatters.s3.amazonaws.com/2021-10-04-basic.jpg&quot;&gt;
+
+&lt;p&gt;But &amp;quot;ur&amp;quot; muffin or not, I found these to be quite bland, not surprisingly. I wouldn't complain too much about the level of sweetness, but the only real flavor came from the butter. The texture of the muffin was fine — perhaps a little dry. (I could have added more milk, I suppose, as Bittman recommends. I also could have cooked them a bit less than what the recipe called for, I think.) The biggest drawback, however, was that these didn't freeze well, which is something I am definitely looking for as I cannot eat a dozen muffins that quickly. &lt;/p&gt;
+
+&lt;p&gt;(As such, I now have 10 rather dull and dry muffins that I have to do something with. How about bread pudding?)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 Oct 2021 08:15:00 -0700</pubDate>
+        <link>http://localhost:4000/2021/10/04/what-is-a-muffin</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/10/04/what-is-a-muffin</guid>
+        
+        <category>muffins</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Great Muffin Experiment</title>
+        <description>&lt;p&gt;I'm starting a new project, one I'm calling The Great Muffin Experiment. I'm going to document some of it here — and perhaps eventually it will become a standalone website (or subdomain). &lt;/p&gt;
+
+&lt;p&gt;The project grows out of my 2021 turn towards a more healthy lifestyle: I've quit drinking, for starters. Fewer calories from booze has helped me to lose about forty pounds. But I also exercise a lot — yoga and recently powerlifting. The latter has made me particularly keen on monitoring how much protein I'm eating — all the better to make muscles. I make a smoothie with protein powder after our morning walk; I also eat a protein bar either before or after working out. All this — not just the increased protein intake — no surprise, has shifted the kinds of ads I get on Instagram (the only social media I'm really on these days). That is to say, I get a lot of ads for &amp;quot;healthy&amp;quot; snacks, particularly protein bars as, like a dummy, I've actually clicked through and purchased a couple different types.&lt;/p&gt;
+
+&lt;p&gt;I've also searched online for recipes that will fulfill my pre- and post-workout needs. In addition to the smoothie and the protein bar, I also eat some Greek yogurt (high in protein!) and a carb or some sort in the mornings. I love the &quot;Friends and Family Granola&quot; Recipe in Roxana Jullapat's &lt;em&gt;Mother Grains&lt;/em&gt; cookbook, for example, although it's 1) rather expensive to make and 2) rather high in calories; I've bought some protein cereal online — low in calories, but pretty damn flavorless. Most days, however, I like to blend a muffin in with the yogurt. The muffin gives the yogurt some texture; the yogurt gives the muffin some moisture and creaminess. Plus, I love to bake — and while dieting have rarely indulged in my creations, for some reason I've convinced myself that muffins are &amp;quot;healthy&amp;quot; — more on that later.&lt;/p&gt;
+
+&lt;p&gt;But in searching for &amp;quot;healthy&amp;quot; recipes — muffins or otherwise — one must wade through a real SEO swamp. I understand that food bloggers have to play the game that Google has set forth in order to appear in search results. Part of this project will be to mark up my data, my blog posts with the appropriate schema so that my stuff too can be found. I won't be making money through ads or sponsorships, and as such, I won't try to lure people to click on this site. (Indeed, I hope it's not discovered for a good long while as this is a nice quiet place to write without being found or followed.) &lt;/p&gt;
+
+&lt;p&gt;More than clicks, I'm interested in the science of making a healthy muffin, and more generally in the science of muffin-making. What even &lt;em&gt;is&lt;/em&gt; a muffin? How can you alter a basic muffin recipe and increase the protein or the fiber or decrease the sugar and fat (without turning to protein powder and sugar substitutes)? When do you use baking soda versus baking powder? How does banana or pumpkin puree or flax seed or coconut flour work as a substitute? That sort of thing...&lt;/p&gt;
+
+&lt;p&gt;For now, I plan to write an essay that will accompany a recipe — each pair will examine one concept in muffin-making. Some of these recipes will be mine; some will be others'. I'll start with an explanation of &amp;quot;what is a muffin.&amp;quot; I'll write another one about &amp;quot;what is healthy&amp;quot; — for me, that is. What are my goals in making this baked good? The experiment will proceed from there.&lt;/p&gt;</description>
+        <pubDate>Sat, 02 Oct 2021 08:15:00 -0700</pubDate>
+        <link>http://localhost:4000/2021/10/02/the-great-healthy-muffin-experiment</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/10/02/the-great-healthy-muffin-experiment</guid>
+        
+        <category>muffins</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Eating 'Healthy'</title>
+        <description>&lt;p&gt;I have been quite remiss in keeping this blog up-to-date, which is a shame considering &amp;quot;food&amp;quot; has been a major focus on my life lately. No doubt, I have put a lot of energy into what I cook and what I eat in order to distract me from my deep, deep grief at the loss of Isaiah. I also had a major health scare that led to the discovery of a (different) major health issue that prompted me to really re-evaluate what I'm doing with this aging body of mine. What I'm doing, more or less, is &amp;quot;getting healthy&amp;quot; — probably healthier than I've ever been in my life, which is weird to say at age 50. I've quit drinking — there's a lot to be written about that. I work out a lot — there's something to be written about that too, and although much of it is outside the purview of this blog, I do think a lot more now than I ever have before about what I eat, about my &amp;quot;macros.&amp;quot; &lt;/p&gt;
+
+&lt;p&gt;This last bit — particularly my efforts to get enough protein for my new powerlifting hobby (LOL, yes) — has had me looking for various recipes that will fulfill my insane hunger when I get home from the gym. While carbs seem to be very unpopular — keto whatever whatever — I'm not anti-carbs per se. I don't want to eat a lot of sugar though. And I don't want to eat too much fat. I don't want too much sodium. I would like a good amount of protein in my post-workout snack. So I've been baking muffins — &amp;quot;healthy&amp;quot; muffins — that I stir into a cup of Greek yogurt. And let me tell you, it's a hoot looking for &amp;quot;healthy&amp;quot; muffin recipes. &lt;/p&gt;
+
+&lt;p&gt;To be fair, looking for any sort of recipe content online is frustrating. The whole SEO game has forced food bloggers into a certain style of writing — I get that. Whatever. But when it comes to hitting those keywords like &amp;quot;protein&amp;quot; and &amp;quot;healthy,&amp;quot; particularly with something that's really just a heavy cupcake, the recipes are ludicrous. So I'm going to start chronicling my experiments baking &amp;quot;healthy&amp;quot; muffins. A batch of muffins is about 12; we won't eat that many in a week or even two. But I think I can do an update once a month or so with a recipe and some thoughts about what &amp;quot;healthy&amp;quot; means in its context. It'll be fun! And it won't be SEO-optimized as I don't want anyone to find this site. Yet.&lt;/p&gt;</description>
+        <pubDate>Wed, 29 Sep 2021 08:15:00 -0700</pubDate>
+        <link>http://localhost:4000/2021/09/29/healthy</link>
+        <guid isPermaLink="true">http://localhost:4000/2021/09/29/healthy</guid>
+        
+        <category>healthy</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Dinner after Death</title>
+        <description>&lt;p&gt;For the past three or so weeks, we have had dinner delivered to the house every night — or almost every night — thanks to the kindness of friends who want to support me following Isaiah's death. It's been a relief, no doubt, to not have to cook. It is hard, while grieving, to force myself to eat. &lt;/p&gt;
+
+&lt;p&gt;But it's been a strange experience — quite different from the typical grieving process in which friends and family bring over meals. We're under stay-at-home orders, so the food is all ordered from restaurants that are doing delivery. The time that it arrives then has been dependent on a variety of factors — when it was ordered, how quickly the restaurant responds, how fast it gets in a car to our apartment. The latter was challenging too during the nights Oakland had a curfew because of the police riots. Dinner never showed up a couple of times.&lt;/p&gt;
+
+&lt;p&gt;It's made me realize how controlling I am over food. I like to line up the meals for the week. Then I know what I need from the grocery store. I manage how many nights in a row we'll have tacos, for example. (There is an excellent taqueria across the street, and folks have ordered us a lot of tacos. And that's fine! I love tacos. But probably not night after night, you know?)&lt;/p&gt;
+
+&lt;p&gt;This has been a lesson in grace and in letting go. &lt;/p&gt;</description>
+        <pubDate>Mon, 15 Jun 2020 08:20:00 -0700</pubDate>
+        <link>http://localhost:4000/2020/06/15/death-dinner</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/15/death-dinner</guid>
+        
+        <category>grief</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Garlic and Onions</title>
+        <description>&lt;p&gt;I'd have him chop the onions and garlic for me. He was so much more fastidious than me. I don't mind if they're all different sizes. I try to accomplish the prep work for meal quickly. He would spend so long, making sure everything was diced, not chopped, and uniformly so.&lt;/p&gt;
+
+&lt;p&gt;I will think of him every day, and I will have real reasons now to cry quietly as I chop the onions.&lt;/p&gt;</description>
+        <pubDate>Mon, 15 Jun 2020 08:15:00 -0700</pubDate>
+        <link>http://localhost:4000/2020/06/15/onions</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/06/15/onions</guid>
+        
+        <category>onions,</category>
+        
+        <category>grief</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Quiche</title>
+        <description>&lt;p&gt;I made quiche for breakfast yesterday. I'd baked a ham the night before, and there were leftovers. I also had plenty of eggs in the fridge, as well as a decent supply of pastry flour.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&quot;Damn, this is the best quiche I've ever eaten&quot; -- my husband&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I've never been a huge fan of pies in any form, partly because I've long struggled to make a decent pie crust. I could say that the pastry flour — a purchase from our local bakery, which now sells all sorts of baking supplies as well as some delicious breads — has helped improve my crusts. But I've only made a couple of things since I got the flour, and I've been honing my crust-making skills for a while now. Chicken pot pie. Ground beef sky with a cheddar crust. That sort of thing.&lt;/p&gt;
+
+&lt;p&gt;There were a bunch of apples in our weekly fruit CSA, so I made a bunch of hand-pies to freeze. The crusts on them were damn near perfect. So I used that recipe to make the quiche. It was a touch sweet, if I'm honest. But god, it was so light. And the filling turned out well too — I've overcooked a quiche before trying to ensure that it's set. This one had Swiss cheese on the bottom, then a cup of ham and a couple of tablespoons of green onions, then the egg filling, and then cheddar on top. It was beautiful. I just had two slices for lunch today.&lt;/p&gt;
+
+&lt;p&gt;I should probably eat less. I'm not exercising at all under these stay-at-home orders. But then I'd have to cook less. And cooking is one of the things that gives my life shape and rhythm right now. &lt;/p&gt;</description>
+        <pubDate>Tue, 12 May 2020 08:15:00 -0700</pubDate>
+        <link>http://localhost:4000/2020/05/12/quiche</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/05/12/quiche</guid>
+        
+        <category>quiche</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Food in a Pandemic</title>
+        <description>&lt;p&gt;I'm a little disappointed that I haven't kept this site up-to-date during this pandemic. So much of my food habits have changed, and it's a pity that I haven't documented it all. My location has changed too — Kin and I moved from Seattle to Oakland a month ago. And even without the stay-at-home orders, that's altered where and how I shop.&lt;/p&gt;
+
+&lt;p&gt;One of the things I managed to do quite successfully while living in Seattle was to sever most of my ties with Amazon. I stopped ordering stuff online, that is. But now, in Oakland, the closest grocery store is a Whole Foods. And the closure of retail stores — not to mention certain shortages, like toilet paper — have made Amazon much harder to avoid.&lt;/p&gt;
+
+&lt;p&gt;Before the shelter-in-place orders, I would walk to the grocery store every day. I loved that store too — Metropolitan Market, a locally-owned grocery store that really made me love grocery shopping again. There were some things that reminded me of AG Thriftway, I suppose. The butchers were great, for example, and would gladly cut you what you wanted, not just what was pre-packaged on the rack.&lt;/p&gt; 
+
+&lt;p&gt;Everyday trips to the grocery store are no longer advisable, of course. And it feels counterintuitive, but I feel like I am spending more time than before figuring out what to eat and how to shop for it. Now I have to carefully plan a week's worth of meals. (I could do more, I suppose, but I do not have a car.) &lt;/p&gt;
+
+&lt;p&gt;I've signed up for a weekly CSA — one half share of vegetables and one share of fruits and nuts. I've purchased some meats for the freezer, and I've ordered a box of meats to be delivered next week from a local ranch. (Depending how that works out, I'll probably do that regularly.) I've bought flour, butter, yeast, and sugar from the neighborhood bakery twice now. &lt;/p&gt;
+
+&lt;p&gt;With the move, I ditched everything that was in the fridge and freezer in Seattle. (Isaiah was quite happy to inherit several tupperware containers of frozen leftovers and an incredible number of condiments.) I've managed to restock the new freezer with plenty of chicken stock — I've cooked a whole chicken twice now. I made hand-pies with apples from the CSA. They're in the freezer now too. But I still feel rather panicky about what we have and don't have in the house and what I might not be able to find in the coming days, weeks, months.&lt;/p&gt;
+
+&lt;p&gt;I'm going to try to write more regularly on this site again — if I can find time, that is, between figuring out food.&lt;/p&gt;
+
+
+
+
+</description>
+        <pubDate>Thu, 07 May 2020 08:15:00 -0700</pubDate>
+        <link>http://localhost:4000/2020/05/07/pandemic</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/05/07/pandemic</guid>
+        
+        <category>pandemic</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Flavortown</title>
+        <description>&lt;p&gt;The past month has been a whirlwind of &amp;quot;fine dining&amp;quot; and &amp;quot;oh my god, what did I just put in my mouth.&amp;quot; I ate, for the first time, at a Michelin star restaurant: Hugo's in Berlin. It was exquisite. I ate at Roy Choi's new restaurant, Best Friend, in Las Vegas. It was the best Korean food I have had in a very long time. I ate at Baran's 2239, one of my favorite restaurants in the world. Kin and I decided we'd celebrate our one-year / ten-year anniversary there (one being married; ten years together). We flew to Hermosa Beach for the weekend just to do so, but also making sure we found time to eat a burrito at Hermosa Mexican Cuisine, the best Mexican food in the South Bay.&lt;/p&gt;
+
+&lt;p&gt;I should have taken better notes about the delicious food I ate, about how it tasted: there was the tiny ice-cream cone of steak tartare at Hugos that opened the meal, but I can't remember what sat on top -- a little dollop of green; there was the elk chop at Baran's, cooked to absolute perfection, but I can't recall the sauce -- pesto, perhaps, but not one made with basil; I didn't make note of the adjectives I'd use to describe the spicy pork and kimchi at Best Friend other than &amp;quot;second only to Mun's,&amp;quot; a Korean woman that Kin and I befriended years ago in Redondo Beach.&lt;/p&gt;
+
+&lt;p&gt;But I can conjure up all sorts of details about the worst meal I have ever had in my life. I should have known better. Pete Wells warned us. Nonetheless, we ate at Guy Fieri's Vegas Kitchen and Bar.&lt;/p&gt;
+
+&lt;p&gt;We didn't eat a meal there, but rather a late night snack. (We'd had dinner earlier that evening at Momofuko -- our second time there and underwhelming both times.) We wanted to drink more and to people watch, but we were tired of walking around, and Guy Fieri's restaurant was in our hotel. We took a seat on the outdoor patio under a heat lamp, ordered a bottle of red wine, and chose something simple from the menu to eat and soak up the alcohol: nachos.&lt;/p&gt;
+
+&lt;p&gt;They were called &amp;quot;Trashcan Nachos,&amp;quot; to be precise -- a name that should have served as a warning. They came out of the kitchen on what looked like a school lunch tray, with a smear of orange cheese sauce on the bottom and a metal can sitting on top of them. &amp;quot;Are you ready?&amp;quot; the chef asked theatrically, lifting up the can off the tray to reveal the chips and meat and cheese and BBQ sauce and pico de gallo that had been stuffed into it. The nachos collapsed in a vomitous heap. &lt;/p&gt;
+
+&lt;p&gt;The presentation was gimmicky, and I could have forgiven the establishment if what ended up on the tray was actually edible. But it was not. The chips were stale. The cheese sauce was akin to something that gets squirted onto food at a baseball park. The pico de gallo was not freshly made. The BBQ was cloyingly sweet, with nothing spicy in that salsa to offset it. But worst of all, the meat was rancid. It tasted like it had been destined for the trashcan but instead ended up in our mess of nachos.&lt;/p&gt;
+
+&lt;p&gt;There is an art, I think, to enjoying nachos. You have to balance the ingredients on each chip, not only so that each bite is perfect but that each ingredient lasts until the end. You don't want to run out of chips; you don't want to run out of toppings. There was no way to assemble a perfect bite of Trashcan Nachos, because there was nothing on the tray that was worth biting into. Even if one carefully avoided the meat, there was still the BBQ sauce to contend with. The cheese sauce was still not &lt;em&gt;bueno&lt;/em&gt;. The chips were still stale. &lt;/p&gt;
+
+&lt;p&gt;How the hell do you fuck up nachos? I think &lt;a href=&quot;https://www.nytimes.com/2012/11/14/dining/reviews/restaurant-review-guys-american-kitchen-bar-in-times-square.html&quot;&gt;Pete Wells' epic review of Guy Fieri's Times Square location&lt;/a&gt;probably answered that: the man has never tasted the food his restaurants churn out. He's a celebrity, not a chef. Guy Fieri is a brand, not an endorsement -- and that's awkward, as I'd never want my name associated with such embarrassingly terrible food, no matter how much money I was paid.&lt;/p&gt;
+
+&lt;p&gt;And people pay Guy Fieri -- even if it's indirectly -- to eat at his restaurants. I mean, we did. And what's funny is that the tab at a shit-hole like that was pretty close to the tab at much better places. &lt;/p&gt;</description>
+        <pubDate>Wed, 18 Dec 2019 10:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2019/12/18/flavortown</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/18/flavortown</guid>
+        
+        <category>worst</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Pie</title>
+        <description>&lt;p&gt;I never really liked pie, mostly because I think the British hide horrible things in theirs, pretending like a nice flaky crust makes up for the fact that the filling is death. e.g. steak-and-kidney, mincemeat. How can you trust a pie? Answer: you can't unless, you make it yourself.&lt;/p&gt;
+
+&lt;p&gt;I wrote my Master's Thesis, in part, on pies. They make a great projectile. That does not change that they are a questionable foodstuff.&lt;/p&gt;
+
+&lt;p&gt;I've started baking pies lately -- mostly meat pies now that I can control what goes in. (No suet. No organs.) The key, in part, is that I've finally mastered making a good crust, although my crimping could use more work.&lt;/p&gt;
+
+&lt;p&gt;I've made a ground beef pie with a cheddar cheese crust. I've made chicken pot pie twice. I tried to make a curry chicken pie, but I didn't like the flavor of the curry much. &lt;/p&gt;
+
+&lt;p&gt;I made an apple pie too, despite always being in the camp that cake is better. The family is thrilled with this new obsession, not understanding why I've always loathed pies. Clearly they've never been served what my brother and I would call &amp;quot;pee pie.&amp;quot;&lt;/p&gt;</description>
+        <pubDate>Wed, 18 Dec 2019 07:15:00 -0800</pubDate>
+        <link>http://localhost:4000/2019/12/18/pie</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/12/18/pie</guid>
+        
+        <category>pie</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Three British Meat Dishes I Will Eat</title>
+        <description>&lt;p&gt;I made Cornish pasties this week for the very first time, and I fucking nailed it. The crust was perfect, and the filling was perfect, and the local grocery store even sells HP sauce (in its &amp;#8220;ethnic foods&amp;#8221; section, no less). So perfect. I had one cold for breakfast, which I thought as I ate it seemed a bad idea and the best idea all at once.&lt;/p&gt;
+
+&lt;p&gt;Pasties are the final dish of the three (British) meat dishes that I&amp;#8217;ve now mastered. The other two: sausage rolls and shepherd&amp;#8217;s pie. So I can say, with gritted teeth, that yes, I will eat lamb or pork or beef. I am not a picky eater! (Reader: I am.)&lt;/p&gt;
+
+&lt;p&gt;I should note here, I suppose, that I used ground beef in my pasties. I knew that I couldn&amp;#8217;t handle eating steak. Too gristly. Too chewy. Too muscly. So yes, I will eat lamb or pork or beef, served in a traditional dish of my people, as long as that meat is &lt;em&gt;ground&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;I tried to cook a rack of lamb tonight. It&amp;#8217;s my second attempt to do so. The first try came out of the oven virtually raw, and even though I extended the cooking time tonight well beyond what any recipe called for, they were still too rare for my taste. I threw the chops into a skillet and gave them a quick sear, and that seemed to do the trick. But even so, I was confronted with such a fatty piece of flesh, with tiny pieces of baby sheep meat. And I remembered: I &lt;em&gt;hate&lt;/em&gt; lamb chops. &lt;/p&gt;
+
+&lt;p&gt;Well, truth be told, I&amp;#8217;ve never forgotten. And I don&amp;#8217;t hate lamb chops per se. I hate all the fat. And I hate having to sit at the dinner table and clean my plate of the fat that I&amp;#8217;d carefully cut away and pushed to the side. I had a memorable fight with my aunt when I was 9 or so about whether or not I should be eating the fat of the lamb chop. She insisted I should. I insisted I&amp;#8217;d barf. I put a far too fatty piece of meat in my mouth tonight and gagged. Run and play more, little lamb. You are too fat.&lt;/p&gt;
+
+&lt;p&gt;I have a list where I write down &amp;#8220;Meal Ideas That Don&amp;#8217;t Suck&amp;#8221; &amp;#8211; these are the recipes I&amp;#8217;ve nailed. I have another list where I track &amp;#8220;Meal Ideas to Work On.&amp;#8221; Rack of lamb has been on the latter for a while now. But fuck that. I&amp;#8217;m not going to even try. It&amp;#8217;s gross. &lt;/p&gt;
+
+&lt;p&gt;Grind me up some lamb and cook it with carrots and peas and smother it with mashed potatoes. I&amp;#8217;ll eat it all that way. I promise.&lt;/p&gt;</description>
+        <pubDate>Fri, 12 Jul 2019 16:25:00 -0700</pubDate>
+        <link>http://localhost:4000/2019/07/12/fuck-lamb-chops</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/12/fuck-lamb-chops</guid>
+        
+        <category>british</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

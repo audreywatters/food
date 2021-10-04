@@ -6,7 +6,7 @@ tags: muffins
 image: 
 imagecredits: 
 ---
-<p><em>The Great Muffin Experiment, Volume 1</em>
+<p><em>The Great Muffin Experiment, Volume 1</em></p>
 
 <p>Sometimes when I bake cupcakes, Kin will call them &quot;muffins&quot; just to annoy me. &quot;They're cupcakes,&quot; I insist. &quot;Are they?&quot; he'll tease.</p>
 
@@ -21,44 +21,6 @@ imagecredits:
 <p>(This distinction works well right up until you consider all the &quot;just add water&quot; varieties of &quot;instant&quot; (read: microwavable) mixes. Then, I guess, it's quick bread all the way down.)</p>
 
 <p><h2>Basic Muffin Recipe</h2></p>
-
-<!-- recipe post-content -->
-<article itemtype="http://schema.org/Recipe">
-
-  <!-- ingredients -->
-  <div>
-    <strong>Ingredients</strong>
-     <ul>
-        {% for ingredient in page.ingredients %}
-        <li itemprop="ingredients">{{ ingredient[1] }} {{ ingredient[0] }}</li>
-        {% endfor %}
-     </ul>
-  </div>
-  <!-- ingredients -->
-
-  {{content}}
-
-  <!-- instructions -->
-  <div itemprop="recipeInstructions">
-    <strong>Instructions</strong>
-    <ol>
-      <li>{{ page.instructions | join: '</li> <li>' }}</li>
-    </ol>
-  </div>
-  <!-- instructions -->
-</div>
-
-{% if page.prepmins or page.cookmins %}
-  <dl class="dl-horizontal">
-    {% if page.prepmins %}<dt>Preparation time</dt><dd>{{ page.prepmins }} mins<span itemprop="prepTime" class="invisible">PT{{ page.prepmins }}M</span></dd>{% endif %}
-    {% if page.cookmins %}<dt>Cooking time</dt><dd>{{ page.cookmins }} mins<span itemprop="cookTime" class="invisible">PT{{ page.cookmins }}M</span></dd>{% endif %}
-  </dl>
-{% endif %}
-
-<p class="invisible" itemprop="description">{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
-<p class="invisible" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation"><span itemprop="calories">{{ page.calories | default: 2 }}</span></p>
-<p class="invisible" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">5</span><span itemprop="reviewCount">1</span></p>
-<!-- recipe post-content -->
 
 <p><img src="https://audreywatters.s3.amazonaws.com/2021-10-04-basic2.jpg">
 
