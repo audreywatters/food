@@ -1,0 +1,73 @@
+---
+layout: post
+title: "What Is a Muffin?"
+date: 2021-10-04 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em>The Great Muffin Experiment, Volume 1</em>
+
+<p>Sometimes when I bake cupcakes, Kin will call them &quot;muffins&quot; just to annoy me. &quot;They're cupcakes,&quot; I insist. &quot;Are they?&quot; he'll tease.</p>
+
+<p>Are they, indeed. What exactly <em>is</em> a muffin, and how is it different than a cupcake? <em>Or is it</em>? </p>
+
+<p>It's easy to joke about confusing the two. Both are baked in muffin tins — muffin tins often lined with cupcake papers. And the etymology doesn't help clarify things — a cake baked in a cup seems obvious. But the word &quot;muffin&quot; is possibly derived from the Low German &quot;<em>muffen</em>,&quot; plural of &quot;<em>muffe</em>&quot; or &quot;small cake.&quot; Possibly — what we know now as the small cake-like muffin is different from the small yeasted bread known as the crumpet or English muffin. It's confusing.</p>
+
+<p>There are, of course, ways we distinguish the two: cupcakes can be frosted, for example; muffins are less likely to be, although they can be glazed. Muffins purport to be healthy; you can get away with eating one for breakfast, while it's generally frowned upon to eat a cupcake for the first meal of the day. I say &quot;purport to be healthy,&quot; because muffins are still quite sweet and even with &quot;healthy&quot; additions like flax seed and oats and dried fruit, they can contain about as much sugar and fat as a cupcake. There are, for what it's worth, about <a href="https://www.fatsecret.com/calories-nutrition/starbucks/chocolate-chunk-muffin">440 calories in the Starbucks Chocolate Chunk Muffin</a>.</p>
+
+<p>In fact, the difference between a muffin and a cupcake is not in the ingredients or the calories or the topping or the time of day they're consumed. Rather, <strong>the difference is in how the batter is assembled</strong>. Cupcakes are, as the name suggests, typically made the same way that cakes are: by creaming the butter and sugar, then adding the eggs and beating until light and fluffy. The dry ingredients — flour, salt, and baking powder, for example — are then added alternately with milk. Muffins are more akin to a quick bread insofar as the dry ingredients (including the sugar) are mixed together; the wet ingredients are mixed together separately; and then the two are combined quickly, without too much stirring — that would develop gluten and make the muffins chewy. Lumps are bad in your cake batter; lumps are fine in your muffin batter.</p>
+
+<p>(This distinction works well right up until you consider all the &quot;just add water&quot; varieties of &quot;instant&quot; (read: microwavable) mixes. Then, I guess, it's quick bread all the way down.)</p>
+
+<p><h2>Basic Muffin Recipe</h2></p>
+
+<!-- recipe post-content -->
+<article itemtype="http://schema.org/Recipe">
+
+  <!-- ingredients -->
+  <div>
+    <strong>Ingredients</strong>
+     <ul>
+        {% for ingredient in page.ingredients %}
+        <li itemprop="ingredients">{{ ingredient[1] }} {{ ingredient[0] }}</li>
+        {% endfor %}
+     </ul>
+  </div>
+  <!-- ingredients -->
+
+  {{content}}
+
+  <!-- instructions -->
+  <div itemprop="recipeInstructions">
+    <strong>Instructions</strong>
+    <ol>
+      <li>{{ page.instructions | join: '</li> <li>' }}</li>
+    </ol>
+  </div>
+  <!-- instructions -->
+</div>
+
+{% if page.prepmins or page.cookmins %}
+  <dl class="dl-horizontal">
+    {% if page.prepmins %}<dt>Preparation time</dt><dd>{{ page.prepmins }} mins<span itemprop="prepTime" class="invisible">PT{{ page.prepmins }}M</span></dd>{% endif %}
+    {% if page.cookmins %}<dt>Cooking time</dt><dd>{{ page.cookmins }} mins<span itemprop="cookTime" class="invisible">PT{{ page.cookmins }}M</span></dd>{% endif %}
+  </dl>
+{% endif %}
+
+<p class="invisible" itemprop="description">{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}</p>
+<p class="invisible" itemprop="nutrition" itemscope itemtype="http://schema.org/NutritionInformation"><span itemprop="calories">{{ page.calories | default: 2 }}</span></p>
+<p class="invisible" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><span itemprop="ratingValue">5</span><span itemprop="reviewCount">1</span></p>
+<!-- recipe post-content -->
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-04-basic2.jpg">
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>If we think of this as the &quot;ur&quot; muffin — a stretch, but bear with me — then there's lots of room for exploration. You can think of all these ingredients are variables to be played with — more sugar, different flour, different fat, for starters. And that's some of what I'll explore throughout The Great Muffin Experiment. </p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-04-basic.jpg">
+
+<p>But &quot;ur&quot; muffin or not, I found these to be quite bland, not surprisingly. I wouldn't complain too much about the level of sweetness, but the only real flavor came from the butter. The texture of the muffin was fine — perhaps a little dry. (I could have added more milk, I suppose, as Bittman recommends. I also could have cooked them a bit less than what the recipe called for, I think.) The biggest drawback, however, was that these didn't freeze well, which is something I am definitely looking for as I cannot eat a dozen muffins that quickly. </p>
+
+<p>(As such, I now have 10 rather dull and dry muffins that I have to do something with. How about bread pudding?)</p>
