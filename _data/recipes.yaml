@@ -1,6 +1,6 @@
 ---
 - title: Basic Muffin
-  description: This is based on the basic muffin recipe from Mark Bittman's How to Cook Everything cookbook.
+  description: This is based on the basic muffin recipe from Mark Bittman's <em>How to Cook Everything</em> cookbook.
   category: breakfast
   ingredients:
   - 3 Tbps melted butter
@@ -64,7 +64,7 @@
   - 2 Tbps dehydrated coconut milk
   - 25 g almond flour
   - 1 1/2 tsp ground cinnamon
-  - 1/8 tsp freshly grated nutmet
+  - 1/8 tsp freshly grated nutmeg
   - 1/8 tsp ground cloves
   - 1/4 cup honey
   - 1/4 cup applesauce
@@ -83,6 +83,29 @@
   preptime: 10
   cooktime: 45
   servings: 6
-
-
-
+- title: Banana Buckwheat Protein Muffins
+  description: This is based on the recipe from <a href="https://kitseats.com/recipes/banana-buckwheat-protein-muffins">kits.eats</a>.
+  category: breakfast
+  ingredients:
+  - 200 g bananas (about 3 small bananas)
+  - 1 cup soy yogurt
+  - 1/4 cup maple syrup
+  - 100 g buckwheat flour
+  - 60 g plant-based protein powder
+  - 1 tsp baking powder
+  - 1 tsp baking soda
+  - 1/4 cup cacao nibs
+  cuisine: American 
+  date: 2021-10-06
+  instructions:
+    - Preheat oven to 350 F. Line 12 compartments of standard muffin tin with paper (or grease tin).
+    - Mash bananas in a medium bowl. Add yogurt and syrup and mix well.
+    - Mix together the dry ingredients in a bowl.
+    - Make a well in the center of the dry ingredients and add the wet ingredients. Stir swiftly, until combined. The batter should be thick, but spoonable. Add milk if necessary.
+    - Spoon batter into muffin tins, filling about two-thirds full.
+    - Bake 15-18 minutes or until toothpick inserted into center comes out clean.
+    - Cool for 5 minutes before taking out of the tin.
+  calories: 132
+  preptime: 10
+  cooktime: 20
+  servings: 12

@@ -1,0 +1,74 @@
+---
+layout: post
+title: "What Is a Healthy Muffin?"
+date: 2021-10-06 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, Episode 2</strong></em></p>
+
+<p>I have always paid some attention to my nutrition. Growing up, my mother made sure that every dinner had a protein, a starch, and a vegetable, for example, as well as the requisite glass of milk for my brother and me. I learned about the food pyramid in school. Cartoon PSAs taught me that &quot;You are what you eat&quot; and that <a href="https://youtu.be/U3jgo5ea_zc">cheese and crackers were a good choice for snacking</a>. Much to my family's chagrin, I became a vegetarian when I left home at age 16 — I'd never really liked meat — but didn't really think much about protein until I became pregnant at 20. All that is to say, I've paid <em>some</em> attention to my nutrition, but I've actually known very little about it, other than the received knowledge from school, family, and television.</p>
+
+<p>Now that my attention has turned to my health and well-being, I see so much of the conflicting messaging — the &quot;science&quot; and the bullshit — about what we should be eating, about what <em>I</em> should be eating as someone who's very physically active (and trying to put on muscle through weight-training). And what makes it worse, I'd argue, is that the more you search online for answers or products, the more you get ads that try to sell you on the latest trend: keto, paleo, whatever. </p>
+
+<p>When you search for healthy recipes, you also run into similar sorts of problems — both with the business of &quot;clicks&quot; and the business of &quot;health.&quot; Recipe blogging is a finely-tuned SEO machine. The photos — let me tell you — are gorgeous. The prose isn't always that bad. But the recipes, particularly when you're interested in items that are &quot;healthy&quot; or that have more protein, are pretty hit-or-miss. Indeed, I've found that in order to boost the protein levels, many of these recipes simply include protein powder. </p>
+
+<p>Take this one, for example:</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Banana Buckwheat Protein Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }} Recipe</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-06-muffin.jpg"></p>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>I followed the recipe for these fairly closely, substituting Greek yogurt for the soy and whey isolate protein for the plant-based one. I made 12 muffins, not 8 as the original indicated. The batter was very runny, and I was concerned the muffins wouldn't hold together. They did, although they didn't really rise much and they were a bit too chewy. (I don't think I over-mixed the batter — often the cause of a chewy muffin. I'll write more soon on how to troubleshoot things like flat muffin-tops.) The texture of the crumb was fine, but they were rather bland — they didn't taste much like banana or cacao.</p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-06-muffin3.jpg"></p>
+
+<p>Buckwheat flour, for what it's worth, does have slightly more protein than wheat flour, and I'll experiment with more protein-rich flours in my bakes in lieu of just adding a protein powder.</p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-06-muffin2.jpg"></p>
+
+<p><h2>Some &quot;Health&quot; Notes</h2></p>
+
+<p>Here's what <em>I</em> am looking for in a healthy muffin: lots of protein and fiber and very little sugar or sodium. Or, at least 4 grams of protein; at least 2.5 grams of fiber; less than 10 grams of sugar; less than 10 grams of fat; and less than 200 milligrams of sodium. (These numbers might seem arbitrary. In many ways, they are!)</p>
+
+<p>For comparison, <a href="http://food.audreywatters.com/2021/10/04/what-is-a-muffin">the Basic Muffin</a> has 3.5 grams of protein; .7 grams of fiber; 5.4 grams of sugar; 3.8 grams of fat; and 238.5 milligrams of sodium. This Banana Buckwheat Protein muffin has 4.8 grams of protein; 3.2 grams of fiber; 10.4 grams of sugar; 2.5 grams of fat; and 179.3 milligrams of sodium. Despite that keyword &quot;protein,&quot; there isn't really that much more in this so-called healthy recipe, is there.</p>

@@ -6,30 +6,69 @@ tags: muffins
 image: 
 imagecredits: 
 ---
-<p><em>The Great Muffin Experiment, Volume 1</em></p>
+<p><em><strong>The Great Muffin Experiment, Episode 1</strong></em></p>
 
 <p>Sometimes when I bake cupcakes, Kin will call them &quot;muffins&quot; just to annoy me. &quot;They're cupcakes,&quot; I insist. &quot;Are they?&quot; he'll tease.</p>
 
 <p>Are they, indeed. What exactly <em>is</em> a muffin, and how is it different than a cupcake? <em>Or is it</em>? </p>
 
-<p>It's easy to joke about confusing the two. Both are baked in muffin tins — muffin tins often lined with cupcake papers. And the etymology doesn't help clarify things — a cake baked in a cup seems obvious. But the word &quot;muffin&quot; is possibly derived from the Low German &quot;<em>muffen</em>,&quot; plural of &quot;<em>muffe</em>&quot; or &quot;small cake.&quot; Possibly — what we know now as the small cake-like muffin is different from the small yeasted bread known as the crumpet or English muffin. It's confusing.</p>
+<p>It's easy to joke about confusing the two. Both are baked in muffin tins — muffin tins often lined with cupcake papers. And the etymology doesn't help clarify things — a cake baked in a cup seems obvious. But the word &quot;muffin&quot; is possibly derived from the Low German &quot;<em>muffen</em>,&quot; plural of &quot;<em>muffe</em>&quot; or &quot;small cake.&quot; <a href="https://www.etymonline.com/word/muffin">Possibly, etymologists say</a>, because what we know now as the small cake-like muffin is different from the small yeasted bread known as the crumpet or English muffin. It's confusing! (But Kin's jokes still aren't funny.)</p>
 
-<p>There are, of course, ways we distinguish the two: cupcakes can be frosted, for example; muffins are less likely to be, although they can be glazed. Muffins purport to be healthy; you can get away with eating one for breakfast, while it's generally frowned upon to eat a cupcake for the first meal of the day. I say &quot;purport to be healthy,&quot; because muffins are still quite sweet and even with &quot;healthy&quot; additions like flax seed and oats and dried fruit, they can contain about as much sugar and fat as a cupcake. There are, for what it's worth, about <a href="https://www.fatsecret.com/calories-nutrition/starbucks/chocolate-chunk-muffin">440 calories in the Starbucks Chocolate Chunk Muffin</a>.</p>
+<p>There are, of course, ways we can and do distinguish the two: cupcakes can be frosted, for example; muffins are less likely to be, although they can be glazed. Muffins purport to be healthy; you can get away with eating one for breakfast, while it's generally frowned upon to eat a cupcake for the first meal of the day. I say &quot;purport to be healthy,&quot; because muffins are still quite sweet and even with &quot;healthy&quot; additions like flax seed and oats and dried fruit, they can contain about as much sugar and fat as a cupcake. There are, for what it's worth, about <a href="https://www.fatsecret.com/calories-nutrition/starbucks/chocolate-chunk-muffin">440 calories in the Starbucks Chocolate Chunk Muffin</a>.</p>
 
-<p>In fact, the difference between a muffin and a cupcake is not in the ingredients or the calories or the topping or the time of day they're consumed. Rather, <strong>the difference is in how the batter is assembled</strong>. Cupcakes are, as the name suggests, typically made the same way that cakes are: by creaming the butter and sugar, then adding the eggs and beating until light and fluffy. The dry ingredients — flour, salt, and baking powder, for example — are then added alternately with milk. Muffins are more akin to a quick bread insofar as the dry ingredients (including the sugar) are mixed together; the wet ingredients are mixed together separately; and then the two are combined quickly, without too much stirring — that would develop gluten and make the muffins chewy. Lumps are bad in your cake batter; lumps are fine in your muffin batter.</p>
+<p>In fact, the difference between a muffin and a cupcake is not in the ingredients or the calories or the topping or the time of day they're consumed. Rather, <strong>the difference is in how the batter is assembled</strong>. Cupcakes are, as the name suggests, typically made the same way that cakes are: by creaming the butter and sugar, then adding the eggs and beating until light and fluffy. The dry ingredients — flour, salt, and baking powder, for example — are then added alternately with milk. Muffins are more akin to a quick bread insofar as the dry ingredients (including the sugar) are mixed together; the wet ingredients are mixed together separately; and then the two are combined quickly, without too much stirring, which would develop gluten and make the muffins chewy. Lumps are bad in your cake batter; lumps are fine in your muffin batter.</p>
 
-<p>(This distinction works well right up until you consider all the &quot;just add water&quot; varieties of &quot;instant&quot; (read: microwavable) mixes. Then, I guess, it's quick bread all the way down.)</p>
+<p>(This distinction works well right up until you consider all the &quot;just add water&quot; varieties of &quot;instant&quot; (read: microwavable) mixes. Then, I guess, it's quick breads all the way down.)</p>
 
-<p><h2>Basic Muffin Recipe</h2></p>
+<p>As part of The Great Muffin Experiment, I will be making a variety of muffins in my quest for the perfect, "healthy" muffin. But let's start without any preconceived notion of what's "healthy" — I'll write about that next — and look and what goes into your basic muffin. 
 
-<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-04-basic2.jpg">
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Basic Muffin" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }} Recipe</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-04-basic2.jpg"></p>
 
 <p><h2>Some Baking Notes</h2></p>
 
-<p>If we think of this as the &quot;ur&quot; muffin — a stretch, but bear with me — then there's lots of room for exploration. You can think of all these ingredients are variables to be played with — more sugar, different flour, different fat, for starters. And that's some of what I'll explore throughout The Great Muffin Experiment. </p>
+<p>If we think of this as the &quot;ur&quot; muffin — a stretch, but bear with me — then there's lots of room for exploration and - apologies to Mark Bittman - improvement. All the ingredients are variables to be played with — more or different sugar, different flour, different fat, for starters. And that's some of what I'll explore throughout The Great Muffin Experiment. </p>
 
-<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-04-basic.jpg">
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-04-basic.jpg"></p>
 
 <p>But &quot;ur&quot; muffin or not, I found these to be quite bland, not surprisingly. I wouldn't complain too much about the level of sweetness, but the only real flavor came from the butter. The texture of the muffin was fine — perhaps a little dry. (I could have added more milk, I suppose, as Bittman recommends. I also could have cooked them a bit less than what the recipe called for, I think.) The biggest drawback, however, was that these didn't freeze well, which is something I am definitely looking for as I cannot eat a dozen muffins that quickly. </p>
 
-<p>(As such, I now have 10 rather dull and dry muffins that I have to do something with. How about bread pudding?)</p>
+<p>(As such, I now have 10 rather dull and dry muffins that I have to do something with. How about <s>bread</s> muffin pudding?!)</p>
