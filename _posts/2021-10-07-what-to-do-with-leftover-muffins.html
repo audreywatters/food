@@ -1,0 +1,62 @@
+---
+layout: post
+title: "What to Do with Leftover Muffins?"
+date: 2021-10-07 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 3</strong></em></p>
+
+<p>I'm only a couple of bakes into this project, and already I am faced with the question: <em>what the hell am I going to do with all these muffins?</em></p>
+
+<p>Ideally, everything goes in the freezer, and I thaw a couple of muffins at a time. A batch of muffins is typically twelve, so if I bake every other week or so, I shouldn't have a problem eating my way through my supply.</p>
+
+<p>But then, sometimes, the recipe kind of sucks; sometimes, the batch doesn't freeze well; sometimes, the freezer is full. And sometimes, you want to — maybe you even need to — transform the muffins into something else.</p>
+
+<p>Might I suggest <s>bread</s> muffin pudding?</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Muffin Pudding" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }} Recipe</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-07-muffin.jpg"></p>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>I used the leftovers from <a href="http://food.audreywatters.com/2021/10/04/what-is-a-muffin">the batch of Basic Muffins</a> I made for dessert, along with a couple of fresh plums from <a href="https://www.froghollow.com">my local fruit CSA</a>. No surprise, many of the complaints one might have about that recipe - not that sweet, not that rich, not that flavorful - were addressed by the addition of more egg, more butter, more sugar, and more milk. Of course, if one's complaints were those muffins just weren't healthy enough...</p>

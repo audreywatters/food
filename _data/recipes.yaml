@@ -25,7 +25,7 @@
   cooktime: 20
   servings: 12
 - title: Muffin Pudding
-  description: This is based on Mark Bittman's Simple Bread Pudding recipe in The New York Times.
+  description: This is based on Mark Bittman's Simple Bread Pudding recipe in <a href="https://cooking.nytimes.com/recipes/1012636-simple-bread-pudding">The New York Times</a>.
   category: dessert
   ingredients:
   - 2 cups milk
