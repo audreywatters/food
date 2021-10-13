@@ -109,3 +109,34 @@
   preptime: 10
   cooktime: 20
   servings: 12
+- title: Buckwheat and Amaranth Muffins
+  description: This is based on the recipe by Martha Rose Shulman that appears in <a href="https://cooking.nytimes.com/recipes/1014143-buckwheat-and-amaranth-muffins">The New York Times Cooking</a>.
+  category: breakfast
+  ingredients:
+  - 3/4 cup whole-wheat flour
+  - 3/4 cup buckwheat flour
+  - 2 tsp baking powder
+  - 1 tsp baking soda
+  - 1/2 tsp salt
+  - 1/2 cup amaranth flour
+  - 2 eggs
+  - 1/3 cup honey
+  - 1 1/2 cup kefir
+  - 1/3 cup unsweetened applesauce
+  - 1 tsp vanilla extract
+  - 1 cup blackberries tossed with 1 tsp all-purpose flour
+  cuisine: American 
+  date: 2021-10-13
+  instructions:
+    - Preheat oven to 375 F. Line 16 compartments of standard muffin tin with paper (or grease tin).
+    - Mix together the dry ingredients in a bowl.
+    - In a separate bowl, beat together the eggs, honey, kefir, applesauce, and vanilla extract.
+    - Make a well in the center of the dry ingredients and add the wet ingredients. Stir swiftly, until combined. The batter should be thick, but spoonable.
+    - Gently fold in the blackberries.
+    - Spoon batter into muffin tins, filling almost to the top.
+    - Bake 15-18 minutes or until toothpick inserted into center comes out clean.
+    - Cool for 5 minutes before taking out of the tin.
+  calories: 118
+  preptime: 10
+  cooktime: 20
+  servings: 16  

@@ -1,0 +1,85 @@
+---
+layout: post
+title: "Making Substitutions in Muffins (and a Quick Lesson on Buttermillk)"
+date: 2021-10-13 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 4</strong></em></p>
+
+<p>I'm a big fan of <a href="https://cooking.nytimes.com">The New York Times Cooking</a>, and I happily pay for a subscription to the website/app. I enjoy browsing the recipes; I even like the recipe recommendations, in part because they seem to operate off of very little personal data about me or analysis of my clicks. Like, I just made pancakes, but thanks for suggesting three more variations. And, if you knew me, you'd know I will <em>never</em> make rice pudding, NYT. Nonetheless, the &quot;Recommended For You&quot; section consistently gives me ideas for things I didn't even know I wanted to make, and I often use it for inspiration rather than for &quot;search&quot; — that is, for finding a specific recipe.</p>
+
+<p>A couple of years ago, The Ringer made the case that The NYT Cooking was &quot;<a href="https://www.theringer.com/2019/2/7/18214477/nytcooking-comment-section">the best comment section on the Internet</a>.&quot; And unlike virtually every other website, I actually do look at the Notes on the recipes I decide to tackle. I think it's a bit of a stretch to say some of these are &quot;the best,&quot; - there's <a href="https://www.instagram.com/nytimescookingcomments/?hl=en">an Instagram account that highlights some of the most hilarious ones</a> - but in all fairness, plenty are useful. (Tonight, for example, I am making <a href="https://cooking.nytimes.com/recipes/1014468-coconut-chicken-curry-with-cashews">chicken coconut curry with cashews</a>, and I appreciate the note that says the three cups of chicken broth the recipe indicates is far too much.)</p>
+
+<p>Many of the comments on The NYT Cooking (and elsewhere) involve substitutions. Angry commenters on The NYT Cooking often complain that a recipe sucks when they've made a silly one: apple cider vinegar for apple cider, for example. (Don't be like that.) Patient food bloggers field these sorts of questions about swapping one ingredient for another in the comment sections of their sites: &quot;what if I substitute rice flour for almond flour?&quot; &quot;can I use oat milk instead of half-and-half?&quot; &quot;I don't have any cardamom. What spice should I use instead?&quot; And so on.</p>
+
+<p>A lot of the recipes I'll be baking as part of this muffin experiment will use substitutions — indeed, that's partly how I'll make these recipes my own. And I'll write lots of posts in the coming weeks and months that will look in detail at how to substitute different flours, different fats, different sugars, <em>and why</em> into a batch of muffins. But here I want to talk about substitutions in general.</p>
+
+<p>There are plenty of good reasons why you'd want to use a different ingredient than one the recipe indicates — most obviously when you don't have that item in your fridge or pantry. Or perhaps the reverse is true: you have a seasonal abundance of an item — say, zucchini — and you'd like to use it up. Or you might want to make a substitution because of health goals, food allergies, or any number of other dietary issues or preferences. Regardless of the reason, <em>the key to changing a recipe is understanding how an ingredient works in the recipe</em> — how does it affect the taste; how does it affect the chemical reactions that occur while cooking; how does it affect the nutrition; how does it affect the appearance? A recipe isn't a random collection of ingredients; with this in mind, you have to approach substitutions in a somewhat scientific way.</p>
+
+<p><h2>How to Substitute Buttermilk</h2></p>
+
+<p>If you type &quot;how to substitute&quot; into Google, you can see by the autocompleted suggestions that one of the most common culinary searches involves how to substitute for buttermilk. A lot of recipes still call for buttermilk, even though I can't imagine it's a terribly popular drink. Buttermilk is like a vestigial organ; it's still in our recipes even though we really don't use it anymore. I mean, not quite vestigial, I suppose - it is great for baking. My grandma cooked a lot with buttermilk; and she always had it in her fridge. (But she drank it straight too — gah!) In the muffin recipe below, that is one of the substitutions I've made from the original. </p>
+
+<p>Unlike my grandma, I do not keep buttermilk on hand, even though I regularly bake from recipes that call for it. I also do not follow what is the Internet's top suggestion for making the substitution: adding one tablespoon of white vinegar to a measuring cup, and then filling it the rest of the way with milk.</p>
+
+<p>That gives you vinegar milk, which is not remotely the same as buttermilk, even though, yes yes, they're both acidic. Vinegar milk lacks the creaminess of buttermilk, particularly if you're like me and only keep a low-fat milk in stock. (You want the acid - in the buttermilk or in the vinegar - to create the chemical reaction with the baking powder. Baking powder - how does it work - is another future blog post. But long story short, that's why you don't just substitute plain milk for buttermilk.) </p>
+
+<p>Buttermilk is <em>fermented</em> milk, and I do, in fact, keep on hand fermented milk in several other forms, namely sour cream, Greek yogurt, and kefir. (I use the latter in my smoothie every morning, so I guess I shouldn't mock my grandma too much for drinking buttermilk.) These are much better options for substitutions, in my opinion, than a thin, vinegar-soured milk.</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Buckwheat and Amaranth Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-13-muffin.jpg"></p>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>The original recipe said it made twelve muffins; my recipe makes sixteen. The original said bake for 25 minutes; thankfully I read the comments on The NYT Cooking who told me they'd bake much more quickly than that. </p>
+
+<p>And I confess: I made a substitution, when I baked these, to my own substitution listsed above: the original calls for canola oil; I've suggested applesauce instead. But when I baked these, I used a homemade pear sauce, because it's pear season. I should have probably skipped the blackberries because it's no longer blackberry season, and the berries I bought were both too large and too tart.</p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-13-muffin2.jpg"></p>
+
+<p>The amaranth gave these a delicate nutty taste, and I plan on making this recipe again (without the berries). I've also got plenty of the flour on hand now to experiment with it in other recipes. Amaranth is a good source of protein and fiber. That said...</p>
+
+<p><h2>Some &quot;Health&quot; Notes</h2></p>
+
+<p>In some ways, my experiments with substitutions, while beautifully successful in terms of taste, were a failure when it came to my health goals. I didn't manage to increase the protein substantially by substituting kefir for buttermilk; but I did increase the carbs, including the sugar, by substituting the pear sauce for the canola oil. (The fat content did go down.) These muffins have 4.5 grams of protein, 23 grams of carbohydrates, and 1.4 grams of fat - more carbs and more sugar than the <a href="http://food.audreywatters.com/2021/10/04/what-is-a-muffin">Basic Muffin Recipe</a>, for crying out loud.</p>
+
