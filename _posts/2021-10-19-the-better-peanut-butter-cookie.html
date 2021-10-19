@@ -1,0 +1,104 @@
+---
+layout: post
+title: "The Better Peanut Butter Cookie Recipe"
+date: 2021-10-19 15:15:00 +0000
+tags: cookies
+image: 
+imagecredits: 
+---
+<p>Now that it's fall, I'm hoping that I can spend more time baking cookies. This spring and summer, the fruit CSA has kept me busy making cakes and pies and crumbles and the like. And those are all delicious, don't get me wrong. But I love cookies.</p>
+
+<p>I'm toying with beginning another project here on this site, along the lines of <a href="http://food.audreywatters.com/muffins.html">The Great Muffin Experiment</a>. For now, I thought I'd bake two different recipes of the same kind of cookie and see which one Kin and I prefer. That's the funny thing about all the SEO focus of recipe blogging: there are hundreds of blog posts touting &quot;the best&quot; whatever, but I'm not even sure you can really say that the author did a lot of work in identifying their recipe as such. Plus it's all so damn subjective.</p>
+
+<p>Take peanut butter cookies. I think they tend to be rather dry. I prefer my cookies soft and chewy. Kin agrees. So I found one recipe that touted softness and chewiness, along with another that has a totally different set of ingredients and instructions. These recipes made less than two dozen apiece, so I don't have an overwhelming amount of cookie on hand at the end of this experiment. And I like the idea of actually trying a bunch of cookie recipes before deciding what one is, indeed, the best for our taste-buds here. I mean, I already have a go-to recipe for oatmeal, chocolate chip, and molasses cookies — <em>but what if I'm missing out?!</em></p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Super Soft Peanut Butter Cookies" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Peanut Butter-Miso Cookies" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><h2>Some Baking and Tasting Notes</h2></p>
+
+<p>The "super soft" cookies are fairly soft, but I think it's because they are on the verge of being under-baked. They have retained that stick-to-the-roof-of-the-mouth, cloying sensation of peanut butter. I didn't have any Demerara sugar on hand when I made these and just rolled them in granulated sugar instead (that's what the original recipe suggested), which didn't impart the rougher texture that I'd have prefered. Then again, these are so sweet, I'd say the extra sugar could be optional. I made the batch on Sunday, and while they haven't dried out too much in 48 hours, peanut butter always seems to be a dry cookie. That's something that Kin and I do not want in a "best" version.</p> 
+
+<p>Interestingly, the miso-peanut butter combination seems to address that problem. (Although in fairness, I ate one soon after it came out of the oven and cooled. Perhaps it'll be drier and crunchier in a few days. The latter is a big no-no for Kin.) I cut the amount of granulated sugar in half from the original recipe, and I didn't roll these in Demerara sugar either. While I like the saltiness and savoriness that the miso imparts, unfortunately, I think it overpowers the peanut butter almost entirely - and this is after letting them sit overnight in the fridge, which the recipe insisted would "mellow" things out. Depending on how the cookies hold up after a couple of days on the counter, I might try this recipe again with more peanut butter (and probably less butter to compensate).</p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-10-19-pb.jpg"></p>
+
+<p>All-in-all, I think we're still on the hunt for a better peanut butter cookie recipe...</p>
+
+
+

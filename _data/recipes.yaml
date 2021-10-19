@@ -140,3 +140,62 @@
   preptime: 10
   cooktime: 20
   servings: 16  
+- title: Super Soft Peanut Butter Cookies
+  description: This is based on the recipe on <a href="https://www.lecremedelacrumb.com/best-super-soft-peanut-butter-cookies/">Creme de la Crumb</a>.
+  category: dessert
+  ingredients:
+  - 1 1/2 cups flour
+  - 1 tsp baking soda
+  - 1/4 tsp salt
+  - 3/4 cup creamy peanut butter
+  - 1/2 cup unsalted butter
+  - 3/4 cup brown sugar
+  - 1/4 cup granulated sugar
+  - 1 egg
+  - 1 1/2 tsp vanilla extract
+  - 2 tbs Demerara sugar
+  cuisine: American 
+  date: 2021-10-19
+  instructions:
+    - Preheat oven to 350 F. Line two baking sheets with parchment paper.
+    - In a medium bowl, whisk together dry ingredients.
+    - With a stand mixer, cream the butter, peanut butter, and granulated and brown sugars until light and fluffy - about 5 minutes. Mix in the egg and the vanilla extract, scraping down the sides, until blended.
+    - Add the dry ingredients to the wet, and mix until just combined.
+    - Roll dough into 2-3 tbs size balls. Roll in Demerara sugar.
+    - Place balls on cookie sheet, about 2 inches apart. (You should fit 12 on a sheet.) Use a fork to make a criss-cross pattern.
+    - Bake for 8 minutes. Do not overbake!
+    - Allow to cool for 1 minute on sheet, then move to a cooling rack.
+  calories: 169
+  preptime: 10
+  cooktime: 10
+  servings: 21  
+- title: Peanut Butter-Miso Cookies
+  description: This is based on the recipe by Krysten Chambrot that appears in <a href="https://cooking.nytimes.com/recipes/1020538-peanut-butter-miso-cookies">The New York Times Cooking</a>.
+  category: dessert
+  ingredients:
+  - 1 3/4 cup flour
+  - 3/4 tsp baking soda
+  - 1/2 tsp baking powder
+  - 1/2 cup unsalted butter 
+  - 1 cup brown sugar
+  - 1/4 cup granulated sugar
+  - 1/3 cup white miso 
+  - 1/4 cup creamy peanut butter 
+  - 1 egg
+  - 1 1/2 tsp vanilla extract
+  - 1/2 cup Demerara sugar
+  cuisine: American 
+  date: 2021-10-19
+  instructions:
+    - In a medium bowl, combine flour, baking soda, and baking powder.
+    - In a stand mixer, combine the butter, brown sugar, and granulated sugar and beat until light and fluffy - about 5 minutes. Add the peanut butter and miso, then mix in the egg and the vanilla extract, scraping down the sides, until blended.
+    - Add the dry ingredients to the wet, and mix until just combined.
+    - Refrigerate dough for at least two hours, but as long as overnight.
+    - Roll dough into 2-3 tbs size balls. Roll in Demerara sugar.
+    - Place balls on cookie sheet, about 2 inches apart. (You should fit 12 on a sheet.) 
+    - Bake for 14 minutes. Remove sheets from oven and smack the sheets on the stovetop. This will flatten the cookies. Return to the oven for another 2-4 minutes.
+    - - Allow to cool for 1 minute on sheet, then move to a cooling rack.
+  calories: 156
+  preptime: 30
+  cooktime: 20
+  servings: 21      
