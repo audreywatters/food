@@ -1,29 +1,103 @@
 ---
 layout: default
 ---
+<main class="content" role="main">        
+        
+<h5 class="index-headline featured"><span>The Great Muffin Experiment</span></h5>              
 
-<main class="content" role="main">
-
-    {% if site.tags.muffins %}
-    <h5 class="index-headline featured"><span>The Great Muffin Experiment</span></h5>
-
-    <div class="container featured">
-      {% for post in site.tags.muffins %}
+  <div class="container featured">
+      
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
             <header class="post-header">
-              <h2 class="post-title" itemprop="name"><a href="{{ post.url | prepend: site.baseurl }}" itemprop="url">{{ post.title }}</a></h2>
+              <h2 class="post-title" itemprop="name"><a href="http://food.audreywatters.com/2021/10/04/what-is-a-muffin" itemprop="url">Experiment No. 1</a></h2>
             </header>
             <section class="post-excerpt" itemprop="description">
-              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+              <p>What is a muffin? (And what is a cupcake?) Recipe: The Basic Muffin.</p>
             </section>
             <div class="post-meta">
-              <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-
+              <time datetime="4 October 2021">4 October 2021</time>
+  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
             </div>
-          </div>
+          <div>
         </article>
-      {% endfor %}
-    </div>
+      
+    </div>    
 
-   {% endif %}
+      <div class="container featured">
+      
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="http://food.audreywatters.com/2021/10/06/what-is-a-healthy-muffin" itemprop="url">Experiment No. 2</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>What is a <em>healthy</em> muffin? Recipe: Banana Buckwheat Protein Muffin.</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="6 October 2021">6 October 2021</time>
+  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
+            </div>
+          <div>
+        </article>
+      
+    </div> 
+
+      <div class="container featured">
+      
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="http://food.audreywatters.com/2021/10/07/what-to-do-with-leftover-muffins" itemprop="url">Experiment No. 3</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>I'm baking a lot of muffins. What do I do with the leftovers and scraps? Recipe: <s>Bread</s> Muffin Pudding.</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="7 October 2021">7 October 2021</time>
+  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
+            </div>
+          <div>
+        </article>
+      
+    </div>  
+
+          <div class="container featured">
+      
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="http://food.audreywatters.com/2021/10/13/substitutions-in-muffins" itemprop="url">Experiment No. 4</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>Generally speaking, how do substitutions work in baking recipes? More specifically: what is buttermilk, and what can you use instead? Recipe: Buckwheat and Amaranth Muffins.</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="13 October 2021">13 October 2021</time>
+  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
+            </div>
+          <div>
+        </article>
+      
+    </div> 
+
+          <div class="container featured">
+      
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+          <div class="article-item">
+            <header class="post-header">
+              <h2 class="post-title" itemprop="name"><a href="http://food.audreywatters.com/2021/10/27/the-tyrany-of-cico-with-muffins" itemprop="url">Experiment No. 5</a></h2>
+            </header>
+            <section class="post-excerpt" itemprop="description">
+              <p>The drawbacks to calorie counting. Recipe: Chocolate/Cacao Beet Muffins.</p>
+            </section>
+            <div class="post-meta">
+              <time datetime="27 October 2021">27 October 2021</time>
+  <!--            <span class="post-tags-set">on <span class="post-tag-">, <a href="/tag/"></a></span></span>-->
+            </div>
+          <div>
+        </article>
+      
+    </div>         
+
+

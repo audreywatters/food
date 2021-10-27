@@ -1,0 +1,112 @@
+---
+- title: All Purpose
+  description: All-purpose flour is a general use wheat flour, and as the name suggests, it is suitable for all types of baked goods. Due to the bran removal in the milling process, this flour is often enriched with vitamins and minerals.
+  category: flour
+  calories: 455
+  weight per cup: 125
+  protein: 13
+  carbohydrates: 95
+  fiber: 3.4
+  sugar: .3
+  fat: 1.2
+  iron: 32%
+  potassium: 134
+  calcium: 1.4%
+  sodium: 2.5
+  caffeine: 0
+  gluten: Yes
+- title: Almond
+  description: Almond flour is simply almonds that have been ground down to a small particle size. Baking with almond flour not only imparts the nutritional elements of the almond, but helps with moisture retention and structure.
+  category: flour
+  calories: 648
+  weight per cup: 112 
+  protein: 24
+  carbohydrates: 14
+  fiber: 14
+  sugar: 4.9
+  fat: 56
+  iron: 23%
+  potassium: 821
+  calcium: 23%
+  sodium: 1.1
+  caffeine: 0
+  gluten: No
+- title: Amaranth
+  description: Amaranth is often used in combination with other flours. (There is not a lot of research on how much to use, but probably no more than 20% of the flour should be amaranth.) It has a nutty flavor. It is also very high in lysine.
+  category: flour
+  calories: 648
+  weight per cup: 112 
+  protein: 24
+  carbohydrates: 14
+  fiber: 14
+  sugar: 4.9
+  fat: 56
+  iron: 23%
+  potassium: 821
+  calcium: 23%
+  sodium: 1.1
+  caffeine: 0  
+  gluten: No 
+- title: Amaranth
+  description: Amaranth is often used in combination with other flours. (There is not a lot of research on how much to use, but probably no more than 20% of the flour should be amaranth.) It has a nutty flavor. It is also very high in lysine.
+  category: flour
+  calories: 648
+  weight per cup: 112 
+  protein: 24
+  carbohydrates: 14
+  fiber: 14
+  sugar: 4.9
+  fat: 56
+  iron: 23%
+  potassium: 821
+  calcium: 23%
+  sodium: 1.1
+  caffeine: 0  
+  gluten: No
+- title: Cocoa Powder
+  description: 
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat:
+  iron:
+  potassium:
+  calcium:
+  sodium: 
+  caffeine: 0  
+  gluten: No 
+- title: Cacao Nibs
+  description: 
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat:
+  iron:
+  potassium:
+  calcium:
+  sodium: 
+  caffeine:  
+  gluten: No 
+- title: Chocolate Chips
+  description: 
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat:
+  iron:
+  potassium:
+  calcium:
+  sodium: 
+  caffeine: 0  
+  gluten: No          
+
+
