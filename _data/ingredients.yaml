@@ -9,10 +9,6 @@
   fiber: 3.4
   sugar: .3
   fat: 1.2
-  iron: 32%
-  potassium: 134
-  calcium: 1.4%
-  sodium: 2.5
   caffeine: 0
   gluten: Yes
 - title: Almond
@@ -25,10 +21,6 @@
   fiber: 14
   sugar: 4.9
   fat: 56
-  iron: 23%
-  potassium: 821
-  calcium: 23%
-  sodium: 1.1
   caffeine: 0
   gluten: No
 - title: Amaranth
@@ -41,60 +33,202 @@
   fiber: 14
   sugar: 4.9
   fat: 56
-  iron: 23%
-  potassium: 821
-  calcium: 23%
-  sodium: 1.1
   caffeine: 0  
   gluten: No 
-- title: Amaranth
-  description: Amaranth is often used in combination with other flours. (There is not a lot of research on how much to use, but probably no more than 20% of the flour should be amaranth.) It has a nutty flavor. It is also very high in lysine.
+- title: Brown rice
+  description: Brown rice flour is made from milling brown rice. It is often used as an alternative to wheat flour in gluten-free baking (although it is used in combination with other flours to aid with structure and moisture retention)  
   category: flour
-  calories: 648
-  weight per cup: 112 
-  protein: 24
-  carbohydrates: 14
-  fiber: 14
-  sugar: 4.9
-  fat: 56
-  iron: 23%
-  potassium: 821
-  calcium: 23%
-  sodium: 1.1
+  calories: 574
+  weight per cup: 158
+  protein: 11
+  carbohydrates: 121
+  fiber: 7.3
+  sugar: 1
+  fat: 4.4
   caffeine: 0  
   gluten: No
 - title: Cocoa Powder
-  description: 
-  calories: 
-  weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat:
-  iron:
-  potassium:
-  calcium:
-  sodium: 
+  category: add-in
+  description: Cocoa powder is the powdered form of the dry solids with a small remaining amount of cocoa butter.
+  calories: 336
+  weight per cup: 80 
+  protein: 16
+  carbohydrates: 48
+  fiber: 16
+  sugar: 0
+  fat: 8
   caffeine: 0  
   gluten: No 
 - title: Cacao Nibs
-  description: 
-  calories: 
-  weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat:
-  iron:
-  potassium:
-  calcium:
-  sodium: 
-  caffeine:  
+  description: Cacao nibs are dried and crumbled pieces of the cacao bean.
+  category: add-in
+  calories: 912
+  weight per cup: 144 
+  protein: 19.2
+  carbohydrates: 38.4
+  fiber: 24
+  sugar: 0
+  fat: 76.8
+  caffeine: 115.2 
   gluten: No 
 - title: Chocolate Chips
+  category: add-in
+  description: Chocolate chips are small pieces of sweetened chocolate. While traditionally, the chips were made from semi-sweet chocolate, there are now a variety of flavors.
+  calories: 606
+  weight per cup: 126 
+  protein: 5.4
+  carbohydrates: 81
+  fiber: 7.5
+  sugar: 69
+  fat: 39
+  caffeine: 0  
+  gluten: No     
+- title: Buckwheat
+  category: flour
+  description: Despite its name, buckwheat has no relation to wheat. Often used in pancakes, it is best used in combination with other flours. It has a nutty flavor.
+  calories: 402
+  weight per cup: 120 
+  protein: 15
+  carbohydrates: 85
+  fiber: 12
+  sugar: 3.1
+  fat: 3.7
+  caffeine: 0  
+  gluten: No     
+- title: Chickpea
+  category: flour
+  description: Chickpea flour is made from milling chickpeas (also known as garbanzo beans. This flour can aid in structure and binding and is good for gluten-free baking. It imparts a nutty flavor.
+  calories: 356
+  weight per cup: 92 
+  protein: 21
+  carbohydrates: 53
+  fiber: 9.9
+  sugar: 10
+  fat: 6.2
+  caffeine: 0  
+  gluten: No     
+- title: Coconut
+  category: flour
+  description: Coconut flour is milled from the meat of coconuts. Its function in baked products is as a boost to nutritional content. It can also be used to decrease the glycemic index in baked goods. It should comprise about 15% of flour usage.
+  calories: 608
+  weight per cup: 136 
+  protein: 25.6
+  carbohydrates: 72
+  fiber: 12.2
+  sugar: 20.8
+  fat: 24
+  caffeine: 0  
+  gluten: No     
+- title: Cornmeal
+  category: flour
+  description: Cornmeal is coarsely milled corn kernels. Because of its lack of gluten, it does not expand during baking, and the final product can be dense.
+  calories: 442
+  weight per cup: 122 
+  protein: 9.9
+  carbohydrates: 94
+  fiber: 8.9
+  sugar: 0.8
+  fat: 4.4
+  caffeine: 0  
+  gluten: No     
+- title: Oat
+  category: flour
+  description: Oat flour is milled from oatmeal. It can make up about 40% of the flour in a recipe.
+  calories: 420
+  weight per cup: 104
+  protein: 15
+  carbohydrates: 68
+  fiber: 6.8
+  sugar: 0.8
+  fat: 9.5
+  caffeine: 0  
+  gluten: No     
+- title: Quinoa
+  category: flour
+  description: Quinoa flour is made by milling the ancient ceral quinoa. It can add a bitter after-taste if used as more than 30% of the flour in a recipe. (For cakes and cookies, it should be no more than 10 and 20% respectively.)
+  calories: 412
+  weight per cup: 112 
+  protein: 16
+  carbohydrates: 72
+  fiber: 7.8
+  sugar: 0
+  fat: 6.8
+  caffeine: 0  
+  gluten: No     
+- title: Rice
+  category: flour
+  description: Rice flour is made from milling white rice. It is often used as an alternative to wheat flour in gluten-free baking (although in combination with other flours to aid with structure and moisture retention).
+  calories: 578
+  weight per cup: 158 
+  protein: 9.4
+  carbohydrates: 127
+  fiber: 3.8
+  sugar: 0.2
+  fat: 2.2
+  caffeine: 0  
+  gluten: No     
+- title: Rye
+  category: flour
+  description: Rye flour is produced by the milling of rye grain. Rye is closely related to wheat, and as such it should not be used in gluten-free recipes. (It does have far less gluten than wheat, however, when it comes to the structure and rise of baked goods.)
+  calories: 356
+  weight per cup: 102 
+  protein: 11
+  carbohydrates: 77
+  fiber: 12
+  sugar: 1.1
+  fat: 1.6
+  caffeine: 0  
+  gluten: Yes     
+- title: Semolina
+  category: flour
+  description: Semolina is a course flour made from high protein durum wheat. It adds a nutty flavor, as well as contributes a yellow color to the final product (typically pasta).
+  calories: 601
+  weight per cup: 167 
+  protein: 21
+  carbohydrates: 122 
+  fiber: 6.5
+  sugar: 0
+  fat: 1.8
+  caffeine: 0  
+  gluten: Yes     
+- title: Sorghum
+  category: flour
+  description: Sorghum flour is a powder made from grinding the sorghum kernel. It is used in combination with other flours to help develop structure in gluten-free baked goods.
+  calories: 434
+  weight per cup: 121 
+  protein: 10
+  carbohydrates: 93
+  fiber: 8
+  sugar: 2.3
+  fat: 4
+  caffeine: 0  
+  gluten: No     
+- title: Tapioca
+  category: flour
+  description: Tapioca flour is obtained from the roots of the cassava plant (and therefore also known as cassava flour). It can function in a baked good to aid with thickening and adhesion, as well as moisture retention.
+  calories: 428
+  weight per cup: 120 
+  protein: 0.2
+  carbohydrates: 108
+  fiber: 1.1
+  sugar: 4
+  fat: 0
+  caffeine: 0  
+  gluten: No     
+- title: Whole Wheat
+  category: flour
   description: 
+  calories: 405
+  weight per cup: 120 
+  protein: 16
+  carbohydrates: 86
+  fiber: 13
+  sugar: 0
+  fat: 3
+  caffeine: 0  
+  gluten: Yes     
+- title: Applesauce
+  description: fruit
   calories: 
   weight per cup:  
   protein: 
@@ -102,11 +236,62 @@
   fiber: 
   sugar: 
   fat:
-  iron:
-  potassium:
-  calcium:
-  sodium: 
   caffeine: 0  
-  gluten: No          
+  gluten: No     
+- title: Butter
+  description: fat
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat: 
+  caffeine: 0  
+  gluten: No     
+- title: Banana
+  description: fruit
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat:
+  caffeine: 0  
+  gluten: No     
+- title: Pumpkin
+  description: fruit
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat: 
+  caffeine: 0  
+  gluten: No     
+- title: White Miso Paste
+  description: add-in
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat:
+  caffeine: 0  
+  gluten: No     
+- title: Espresso Powder
+  description: add-in
+  calories: 
+  weight per cup:  
+  protein: 
+  carbohydrates: 
+  fiber: 
+  sugar: 
+  fat: 
+  caffeine:   
+  gluten: No                                              
 
 

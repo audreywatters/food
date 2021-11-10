@@ -229,3 +229,64 @@
   preptime: 10
   cooktime: 20
   servings: 12  
+- title: Soft Oatmeal Cookies
+  description: This is based on the recipe that appears on the <a href="https://sugarspunrun.com/big-soft-oatmeal-cookies/#recipe">Sugar Spun Run</a> blog.
+  category: cookies
+  ingredients:
+  - 1 cup unsalted butter, softened
+  - 1 cup brown sugar
+  - 1/2 cup granulated sugar
+  - 2 eggs
+  - 1 1/2 tsp vanilla extract
+  - 1 3/4 cup all-purpose flour 
+  - 2 tsp cornstarch 
+  - 1 tsp baking soda
+  - 3/4 tsp salt
+  - 3/4 tsp cinnamon
+  - 3 cups old-fashioned rolled oats
+  cuisine: American 
+  date: 2021-11-09
+  instructions:
+  - Using a stand mixer, cream the butter and sugars.
+  - Add eggs, one at a time, beating until combined. Then add in the vanilla extract.
+  - In a separate bowl, whisk together flour, cornstarch, baking soda, salt, and cinnamon.
+  - Gradually add flour mixture to butter mixture until completely combined.  
+  - Stir in oats.  
+  - Chill dough in refrigerator for 30 minutes.
+  - Preheat oven to 375 and line cookies sheets with parchment paper.
+  - Drop cookie dough by rounded 2 tablespoon-fulls onto the parchment paper -- about a dozen per sheet. (These will spread slightly.)
+  - Bake for 10 minutes. They will look underbaked, but will finish cooking on the cookie sheet as they cool.
+  - Allow cookies to cool completely on cookie sheet.
+  calories: 116
+  preptime: 40
+  cooktime: 10
+  servings: 34 
+- title: Not-So-Sweet Miso Oatmeal Cookies
+  description: This is based on the recipe that appears on the <a href="https://www.wellplated.com/healthy-oatmeal-cookies/">Well Plated</a> website.
+  category: cookies
+  ingredients:
+  - 1 1/4 cup quick oats
+  - 1 cup white whole wheat flour
+  - 1/2 tsp salt
+  - 1/4 cup unsweetened applesauce
+  - 3 tablespoons unsalted butter, melted
+  - 2 tbs white miso
+  - 1 egg
+  - 1 tsp vanilla extract
+  - 7 tbs honey
+  cuisine: American 
+  date: 2021-11-09
+  instructions:
+    - In a large bowl, whisk together the oats, flour, baking powder, cinnamon, and salt.
+    - In a medium bowl, combine the applesauce, melted butter, miso, egg, vanilla, and honey. Whisk until blended. 
+    - Pour the wet mixture into the dry mixture and stir just until combined. The dough will be very wet and sticky. Refrigerate for at least 30 minutes.
+    - Preheat oven to 350.
+    - Line two cookie sheets with parchment paper. 
+    - Drop 1.5 tablespoon size balls of dough onto cookie sheet - one dozen will fit per sheet. This dough will not spread, so flatten the balls slightly.
+    - Bake for 9 to 10 minutes.
+    - Cool on the cookie sheet for 2 minutes before transferring to a wire rack to cool completely.
+  calories: 73
+  preptime: 40
+  cooktime: 10
+  servings: 24   
+

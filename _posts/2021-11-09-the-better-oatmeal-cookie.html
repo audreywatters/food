@@ -1,0 +1,106 @@
+---
+layout: post
+title: "The Better Oatmeal Cookie Recipe"
+date: 2021-11-09 15:15:00 +0000
+tags: cookies
+image: 
+imagecredits: 
+---
+<p>Whenever I ask Kin what kind of cookies he'd like me to bake, he reminds me of how he ranks his favorites: peanut butter are okay; chocolate chips are good; better are my molasses cookies; and the best are oatmeal.</p>
+
+<p>I found a pretty good oatmeal cookie recipe online a while ago. <em><a href="#recipe">Jump to the Recipes</a></em> It makes a soft cookie — a necessity — but it's just too sweet for me. Kin loves it, and to be honest, when I bake cookies they're really to fit his taste-buds. But <a href="http://food.audreywatters.com/2021/10/19/the-better-peanut-butter-cookie">after trying the miso-peanut butter cookies</a> a few weeks ago, I thought I'd see if I could make a batch of oatmeal cookies that were less sweet, with the umami that miso adds.</p>
+
+<p>I feel quite validated about using miso in my baking, incidentally, particularly after Crystelle, a contestant in this season's <em>Great British Bake Off</em> incorporated it into a couple of her caramel contributions this past week. &quot;It's like salted caramel,&quot; she explained to the skeptical judges. &quot;YES!&quot; I shouted at the television. (She won Baker of the Week too, I might add.)</p>
+
+<p>I probably should have just modified my go-to oatmeal cookie recipe to make it &quot;healthier,&quot; but instead I googled the whole &quot;healthy oatmeal cookie&quot; thing and opted to try one with far less sugar. And as I've never actually baked this recipe before <em>without</em> miso, it's hard to judge fully how the addition of that ingredient affected the texture and taste. </p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Soft Oatmeal Cookies" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Not-So-Sweet Miso Oatmeal Cookies" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-11-10-oatmeal.jpg"></p>
+
+<p><h2>Some Baking and Tasting Notes</h2></p>
+
+<p>The "healthy" cookies were smaller, and as such, it's a bit silly to make too much out of a calorie comparison. <a href="http://food.audreywatters.com/2021/10/06/what-is-a-healthy-muffin">That word "healthy" is a tricky one in any baked good</a>. I mean, yes, there was less sugar and less fat. "Healthy" though? Hmm.</p>
+
+<p>I wish I'd used old fashioned rolled oats rather than the quick oats that the original recipe suggested. That made them very soft and almost cake-like. The texture that old fashioned oats is much better, much oatier. These cookies did stay soft for a long time - is that a result of the fermentation from the miso? I don't know. The peanut butter-miso cookies held their softness as well.</p>
+
+<p>All-in-all, I think I'll stick with making the first recipe when baking oatmeal cookies for Kin. But my experimentation with miso - in cookies and otherwise - will continue...</p>
+
+
+
