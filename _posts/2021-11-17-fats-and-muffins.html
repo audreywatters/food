@@ -1,0 +1,77 @@
+---
+layout: post
+title: "Muffin Fats"
+date: 2021-11-17 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 6</strong> (<a href="#recipe">Jump to the Recipe</a>)</em></p>
+
+<p>One of my goals with this muffin experiment was to do just that: experiment with different ingredients in order to optimize the health benefits in my daily post-workout snack. As I've written before, I'm not actively avoiding fats, but I am keenly interested in consuming <em>good</em> fats and getting the most bang-for-the-buck out of the fats I eat. That means that recipes that call for vegetable oil are easy targets for revision.</p>
+
+<p>But before you revise any recipe, I'd argue, you have to understand why they contain oil in the first place — this is key to all substitutions. If you just say &quot;to hell with it, I'm leaving out the butter altogether in this pound cake,&quot; you're going to be sorely disappointed with the &quot;cake&quot; you bake. </p>
+
+<p>So what does fat do in a muffin? It slows down the gluten formation caused by the chemical reactions from baking soda and powder — I really need to write about these two ingredients in a future post. As such, oil makes the baked good fluffy and moist. When switching out the oil for a different ingredient, you have to think about both the properties of the oil <em>and</em> the substitute so that texture and flavor aren't adversely impacted.</p>
+
+<p>Let's just say that when recipes say &quot;vegetable oil,&quot; they mean &quot;canola,&quot; even though oil can be made from a ton of grains and fruits and vegetables. Indeed, one of the easiest ways to improve the healthiness of one's cooking is to use better oils: say, olive oil or avocado or coconut. These are high in antioxidants and monounsaturated fat — the &quot;good&quot; kind of fat. </p>
+
+<p>One could also use nut butters in lieu of oil. The recipe below does just that, using peanut butter in lieu of the avocado in the original (and already very healthy) recipe.</p>
+
+<p>Dairy products can also work instead of oil: butter (I mean, sure, why not — there are fewer calories in a tablespoon of butter than in a tablespoon of canola oil, after all), sour cream, yogurt, kefir, buttermilk. These can all work. Is mayonnaise a dairy product? Not sure, to be honest. But as mayo is part oil already, it can be used quite successfully. (I don't think you'll get much of a health boost for this switch, but sometimes you're out of oil and want to make brownies. I get it.)</p>
+
+<p>The most common, &quot;healthy&quot; oil substitute is probably applesauce. But really, almost any fruit or vegetable will work the same way — substitute pureed fruit for the same amount of oil. Bananas. Apples. Pears. Pumpkin. Sweet potato. Beets. Zucchini. Depending on the fruit or vegetable, this will change the taste and appearance of the baked good. And it'll often make the crumb more dense — so you might substitute just half the oil, perhaps, for applesauce. That's still a substantial reduction in fat and calories. It will, on the other hand, increase the carbohydrates in your recipe. (For what it's worth, a cup of pumpkin puree has fewer calories, less sugar, and more protein than applesauce. And you can make a puree out of any winter squash, not just pie pumpkins.)</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Chickpea Banana Peanut Butter Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-11-17-chickpea.jpg"></p>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>I bookmarked Kelly Jones Nutrition's recipe for chickpea banana muffins before I started this project, thinking that I'd like to try it for its lack of added sugar and its use of chickpea flour, a flour that is high in protein. And initially, I thought I'd bake the recipe and use it as an excuse to talk about different flours and what they can impart — in terms of nutrition and taste — to baked goods. I'll do that in the future, with another muffin recipe. And I'm trying to amass as much data about different ingredients as I can and find a useful way to present that information. </p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-11-17-chickpea2.jpg"></p>
+
+<p>As I queued up this recipe to bake, I decided that I'd make a few changes to what is already a really great recipe — changes that I undertook as part of the experimental nature of this project. What if I substituted peanut butter for the avocado oil? What if I added some baking powder and salt? Of course, the flaw with my experimental model here is that I'm not actually making the original recipe; I'm just tweaking it to my needs. So I don't know how I'm messing with the flavors or textures. Are these better tasting than the original? I don't know.</p>
+
+<p>That said, I really like this muffin a lot. As I was mixing up the batter, I was a little apprehensive because the chickpea flour does smell very strong. And I worried that I'd be eating an unsweetened banana falafel. But I absolutely love how light and fluffy these muffins are. I only had crunchy peanut butter in the pantry, and that's given a bit of texture to them. It's also enhanced the nuttiness of the chickpea flour. But these definitely aren't sweet at all. And as such, I don't think they'd be everyone's cup of tea. Nonetheless, I am really pleased with how they've turned out. (They freeze pretty well too.) </p>
+
+<p>I'll use the chickpea flour and nut butter — separately and in combination — in future recipes, for sure. In fact, the next batch I'm baking includes the latter…</p>
+

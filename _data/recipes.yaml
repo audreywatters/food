@@ -289,4 +289,90 @@
   preptime: 40
   cooktime: 10
   servings: 24   
-
+- title: Chickpea Banana Peanut Butter Muffins
+  description: This is based on the recipe for no sugar added chickpea banana muffins on <a href="https://kellyjonesnutrition.com/no-added-sugar-chickpea-banana-muffins/">Kelly Jones Nutrition</a> website.
+  category: muffins
+  ingredients:
+  - 1 1/2 cup chickpea flour
+  - 1 tsp baking soda
+  - 1/4 tsp baking powder
+  - 1/4 tsp salt
+  - 1 tsp cinnamon
+  - 3 ripe bananas
+  - 2 tbs applesauce
+  - 1/4 cup peanut butter
+  - 1 tbs vanilla extract
+  - 3 tbs oat milk
+  - 1 1/2 tbs apple cider vinegar
+  cuisine: American 
+  date: 2021-11-09
+  instructions:
+    - Preheat oven to 350 and line muffin tins with paper liners.
+    - In a medium bowl, whisk together the dry ingredients (flour, baking soda and powder, salt, and cinnamon).
+    - In a large bowl, combine the wet ingredients (bananas, applesauce, peanut butter, eggs, vanilla, and vinegar). Whisk until blended. 
+    - Pour the dry mixture into the dry mixture and stir just until combined. 
+    - Fill muffin papers about three-quarters full.
+    - Bake for 15-18 minutes.
+    - Allow to cool for a couple of minutes, then remove from muffin tinransfer to a wire rack to cool completely.
+  calories: 91
+  preptime: 10
+  cooktime: 20
+  servings: 16  
+- title: Molasses Cookies
+  description: This is based on the recipe that appears on the <a href="https://thesaltymarshmallow.com/old-fashioned-soft-molasses-cookies/#recipe">Salty Marshmallow</a> website.
+  category: cookies
+  ingredients:
+    - 1 cup brown sugar
+    - 1 cup butter, softened
+    - 1/4 cup molasses
+    - 1 egg
+    - 1 tsp vanilla
+    - 2 1/2 cups flour
+    - 2 tsp baking soda
+    - 1 1/2 tsp cinnamon
+    - 1 1/2 tsp ginger
+    - 1/2 tsp salt
+    - 1/4 cup granulated sugar (for decoration)
+  cuisine: American 
+  date: 2021-11-21
+  instructions:
+    - Preheat oven to 325 degrees.
+    - In a medium bowl, combine the sugar, butter, egg, molasses, and vanilla.
+    - In a large bowl, combine the flour, soda, salt, and spices. Add the wet ingredients.
+    - Roll into tablespoon-size balls, then roll in sugar. Place on a baking sheet -- about a dozen fit on a sheet.
+    - Bake for 13-15 minutes.
+    - Cool on a wire rack.
+  calories: 127
+  preptime: 10
+  cooktime: 15
+  servings: 31       
+- title: Chocolate Molasses Cookies
+  description: This is based on Alison Roman's recipe in <a href="https://cooking.nytimes.com/recipes/1019806-chocolate-molasses-cookies">The New York Times Cooking</a>.
+  category: cookies
+  ingredients:
+  - 1/2 cup unsalted butter
+  - 1 tbs freshly grated ginger
+  - 1 1/2 cups flour
+  - 1/2 cup cocoa powder
+  - 2 tsp baking soda
+  - 1 tsp cinnamon
+  - 1 tsp ginger
+  - 1 tsp salt
+  - 1/3 cup granulated sugar (plus extra for decoration)
+  - 1/2 cup molasses
+  - 1 egg
+  cuisine: American 
+  date: 2021-11-21
+  instructions:
+    - Preheat oven to 350 degrees.
+    - Line two baking sheets with parchment paper.
+    - In a small pot over medium heat, melt the butter. Add the fresh ginger. Remove from heat and let cool while you prepare everything else.
+    - In a large bowl, combine the flour, spices, soda, and salt.
+    - In a medium bowl, combine the sugar, molasses, egg, and ginger/butter. Slowly mix into the dry ingredients.
+    - The dough will be very soft, so refrigerate for about 15 minutes to firm. Then roll into small balls, about the size of a quarter. Roll in sugar, and place on cookie sheet -- about a dozen per sheet.
+    - Bake for 6-8 minutes.
+    - Cool on on a wire rack.
+  calories: 75
+  preptime: 40
+  cooktime: 10
+  servings: 33  

@@ -1,0 +1,100 @@
+---
+layout: post
+title: "The Better Molasses Cookie Recipe"
+date: 2021-11-24 15:15:00 +0000
+tags: cookie
+image: 
+imagecredits: 
+---
+<p>My molasses cookies are Kin's favorite. And I'll admit, they're one of my favorites as well. There's something about that ginger-molasses combination that just hits perfectly. The recipe I use makes a nice soft cookie — one that doesn't dry out on the counter and turn into more of a ginger snap. (Admittedly, these don't last that long.)</p>
+
+<p>But as I've been looking for <em>better</em> cookie recipes, I thought I'd take my current recipe head-to-head with a molasses cookie variation. I chose The New York Times Cooking's chocolate-molasses cookie.</p>
+
+<p>When I read the recipe, I knew it would be an unfair comparison. It has fresh grated ginger! Why aren't I adding fresh grated ginger to my usual recipe!? (I think I will from now on.)</p>
+
+<p>I'm getting ahead of myself…</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Molasses Cookies" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Chocolate Molasses Cookies" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2>{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-11-24-molasses.jpg"></p>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>The &quot;plain&quot; molasses cookie is, as I said, pretty close to perfect — it's soft, with that granulated sugar texture. The chocolate version bakes at a higher temperature for a shorter amount of time. That's not the only reason they're &quot;fudgier,&quot; of course. But it doesn't have that same molasses cookie texture at all. The chocolate, however, gives it such a rich, dark taste. Despite the addition of the fresh ginger, the ginger flavor didn't overpower the chocolate. And wow damn, I love these. Kin did too, although he's requested I stick with my original recipe for future bakes.</p>
+
