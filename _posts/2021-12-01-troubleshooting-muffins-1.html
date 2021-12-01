@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Troubleshooting Muffin Recipes, Part 1"
+date: 2021-12-01 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 7</strong> (<a href="#recipe">Jump to the Recipe</a>)</em></p>
+
+<p>When I started this project, I wanted to go &quot;all in&quot; on what some people think of as the most annoying part of online recipes: the verbiage before you get to the recipe. That's because, despite there being a recipe at the bottom of each of these posts, the point isn't about the recipe; it's about the lessons I'm learning each time I piece one together. None of these recipes are polished at all. It's an experiment! And this week is no exception — I'm not at all thrilled with how this batch of muffins turned out. </p>
+
+<p>I wanted to try to make a muffin that was &quot;almond forward,&quot; as someone snooty might say. I used almond flour and almond butter and almond extract. And amaranth flour too, for more nuttiness. They were very, very dense. The flavor was great, don't get me wrong. Ground almonds and eggs are two-thirds of the way to marzipan — one of my most favorite foods. And I suppose I could say that the consistency of these were marzipan-y. Except I help back on the sweetener, so they're missing that final element. They didn't rise very well — like I said, dense. And as the batter was so thick, they didn't have a very nice shape to them either — cooking in almost precisely the same blob as the raw batter filled the muffin tin.</p>
+
+<p>I have to find time to return to some of these recipes that don't quite work out perfectly. And I want to write about troubleshooting recipes. There are <a href="https://delishably.com/baked-goods/How-to-Make-Muffins-Like-a-Pro">some blog posts online</a> that purport to help, but they address problems bakers might have made, not problems in the recipe itself. So notes for next time on these almond muffins: more baking powder? Some baking soda? Some oil (not just almond butter)? Some regular flour (not just almond)? A different sweetener? (I used monk fruit, and I have another whole blog post to write on sugar substitutes in muffins).</p>
+
+<p>Honestly, this week has just been a little crazy, what with the Thanksgiving holiday and a houseguest — my mom, who helped me make brandy snaps for the first time. That's another post I have to write, along with some reflections on holiday baking in general.</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Almond Flour, Almond Butter, Amaranth Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-12-01-muffin.jpg"></p>
+

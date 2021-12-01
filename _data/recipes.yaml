@@ -376,3 +376,31 @@
   preptime: 40
   cooktime: 10
   servings: 33  
+- title: Almond Flour, Almond Butter, Amaranth Muffins
+  description: This is based on the recipe for almond flour muffins on <a href="https://www.oliveandmango.com/easy-almond-flour-muffins">Olive and Mango</a>.
+  category: muffins
+  ingredients:
+  - 1 3/4 cup almond flour
+  - 1/2 cup amaranth flour
+  - 2 tsp baking powder
+  - 1/4 tsp salt
+  - 1/4 cup almond butter 
+  - 1/4 cup kefir
+  - 1 tsp almond extract
+  - 2 eggs
+  - 1 tbs monk sugar, dissolved in 1/3 cup water
+  cuisine: American 
+  date: 2021-11-09
+  instructions:
+    - Preheat oven to 350 and line muffin tins with paper liners.
+    - In a medium bowl, whisk together the dry ingredients (flours, baking powder, salt).
+    - In a large bowl, combine the wet ingredients. Whisk until blended. 
+    - Pour the dry mixture into the dry mixture and stir just until combined. 
+    - Fill muffin papers about three-quarters full.
+    - Bake for 15-18 minutes.
+    - Allow to cool for a couple of minutes, then remove from muffin tinransfer to a wire rack to cool completely.
+  calories: 153
+  preptime: 10
+  cooktime: 20
+  servings: 12  
+
