@@ -1,0 +1,94 @@
+---
+layout: post
+title: "Homemade Granola"
+date: 2021-12-08 15:15:00 +0000
+tags: breakfast
+image: 
+imagecredits: 
+---
+<p>I've had some fairly terrible homemade granola in my time. Mostly, it was terrible because it was, in food critic speak, &quot;raisin forward.&quot; I hate raisins. I want my granola to be crunchy, without any surprise mushiness in any of the bites.</p>
+
+<p>I'd never made granola myself until I bought Roxana Jullapart's <em>Mother Grains</em> cookbook. Her recipe for &quot;Friends and Family&quot; granola is stellar. I've made it several times (and I'll make it again tomorrow). It requires quite an investment in ingredients — particularly nuts and the dried coconut milk powder.</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Friends and Family Granola" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p>I recently tried a variation of this recipe — substituting all the varieties of nuts and seeds for just almonds. I also used almond butter in lieu of the oil and almond extract instead of vanilla. It turned out great. (But like I said, I'm making Roxana's original recipe tomorrow).</p>
+
+<p>I also tried one of the recipes in <a href="https://cooking.nytimes.com/recipes/1021529-banana-granola-with-cinnamon-nutmeg-and-walnuts?action=click&module=Local%20Search%20Recipe%20Card&pgType=search&rank=1">The New York Times</a> for banana granola. This one tasted great, but it didn't go sufficiently crispy. It was more like eating a banana-flavored oatmeal cookie than eating granola. Kin did not complain.</p>
+
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Banana Granola" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
