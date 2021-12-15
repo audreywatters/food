@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Muffin Frustration"
+date: 2021-12-15 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 8</strong> (<a href="#recipe">Jump to the Recipe</a>)</em></p>
+
+<p>This is the second batch of muffins in a row that I'm really not thrilled with. The taste is fine, but the consistency is far too &quot;stodgy,&quot; as Paul Hollywood would probably describe them. Part of this stems from my experimentation with various gluten-free flours. This week's recipe, for example, was made with oat flour (and the previous batch, almond and amaranth). These tend to make much denser baked goods, but I believe I can still make them lighter. I need to rethink how I do my troubleshooting and recipe testing, because I'm not giving myself an opportunity to improve before moving on to another combination of ingredients.</p>
+
+<p>More broadly, I'm also rethinking my whole breakfast situation as I'm not going to eat store-bought protein bars any longer. I'm consuming way too much fat as most of these are &quot;keto-friendly&quot; and I need a bigger shot of carbs for my weightlifting mornings. I've ordered a cookbook called <em>Rise and Runs</em>, that involves morning food and rituals — including god help me, running. I'm hoping it'll help me find something else to start my day. I do still love my muffin, Siggis, and granola combination, so the muffin project will continue. And I'm still interested in high protein, good fat, low sugar baking. I just want to make some decent goddamn muffins.</p>
+
+<p>Sadly, this recipe only gets me partly there.</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Miso Honey Oat Flour Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>As with a couple of my cookie experiments, I've added miso to the original recipe. In addition to dialing in the texture of the muffins, I also want to really hone that salted caramel flavor that I think miso can, ideally, provide.</p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-12-15-muffin.jpg"></p>
+
+<p>I think the problems with this recipe are twofold. First, I used kefir, which was too heavy and made the batter too thick. (The original recipe called for almond milk. Honestly, water might've been better.) And second, oat flour should be given in weights not cups. I mean, this goes for almost all baking recipes, and it's something I need to think about as (if/when) I perfect some of these recipes. Did I use too much oat flour? I don't know. I used three cups worth but was it the right weight?!</p>
+

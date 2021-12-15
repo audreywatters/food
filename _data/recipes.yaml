@@ -67,6 +67,7 @@
   - 1/8 tsp freshly grated nutmeg
   - 1/8 tsp ground cloves
   - 1/4 cup honey
+  - 1/4 cup maple syrup
   - 1/4 cup applesauce
   - 1/4 cup vegetable oil
   - 1 Tbps vanilla extract
@@ -431,4 +432,29 @@
   preptime: 15
   cooktime: 60
   servings: 5  
+- title: Miso Honey Oat Flour Muffins
+  description: This is based on the recipe for honey oat flour muffins on <a href="https://hungryhobby.net/honey-oat-flour-muffins/">Hungry Hobby</a>.
+  category: muffins
+  ingredients:
+  - 3 c oat flour
+  - 1 cup kefir
+  - 1/3 c honey
+  - 2 eggs
+  - 1/2 tsp salt
+  - 1 tsp baking soda
+  - 1 tsp baking powder
+  cuisine: American 
+  date: 2021-12-15
+  instructions:
+    - Preheat oven to 350 and line muffin tins with paper liners.
+    - In a medium bowl, whisk together the dry ingredients (flours, baking powder, salt).
+    - In a large bowl, combine the wet ingredients. Whisk until blended. 
+    - Pour the dry mixture into the dry mixture and stir just until combined. Let sit for five minutes.
+    - Fill muffin papers about three-quarters full.
+    - Bake for 15-16 minutes.
+    - Allow to cool for a couple of minutes, then remove from muffin tinransfer to a wire rack to cool completely.
+  calories: 123
+  preptime: 10
+  cooktime: 20
+  servings: 15   
 
