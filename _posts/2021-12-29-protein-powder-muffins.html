@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Protein Powders in Muffins"
+date: 2021-12-29 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 9</strong> (<a href="#recipe">Jump to the Recipe</a>)</em></p>
+
+<p>One of the reasons that I started this muffin experiment was to try to get away from the protein bar fare that relies so heavily on protein powders — whey, egg white, pea, collagen or otherwise. Every morning, I do drink a smoothie that includes whey protein powder. But I've found that if I drink that <em>and</em> eat a protein bar, my stomach isn't at all pleased. </p>
+
+<p>It's a challenge some days to hit my protein consumption goals, particularly on days when I'm not eating meat — something I plan to do more of in the new year. As such, I wanted to experiment with higher protein content ingredients in my muffins — higher protein flours or fats, for example — to see if I could replace the ol' protein bar as a pre- or post-workout meal. That said, protein bars contain <em>a lot</em> of protein — about 20 grams — and that's hard to achieve with just almond flour and almond butter (or the like). Frankly, it's hard to even come close.</p>
+
+<p>So far, I've avoided adding protein powder to any of my recipes as the quick fix for boosting their protein levels. I'm not a fan of some of the popular &quot;healthy&quot; websites that are really centered on baking with supplements — sponsored content, I imagine. That said, I am weighing starting to add protein to my recipes — although it'll likely be collagen as 1) it's what I have in the pantry, 2) I don't want to overdo it on the whey, and 3) collagen doesn't dramatically change the texture of the baked good. Collagen is not a complete protein, of course. But I'm less concerned about that as I'm not relying on it as my sole source of protein.</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Protein Pumpkin Muffins with Pumpkin Seed Butter" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>The original recipe calls for almond butter, but I decided to try making pumpkin seed butter for this version. Pumpkin seed butter is quite comparable to almond butter in terms of protein, fat, and carb content. I was a bit worried that the green color of the pepitas — and hence, the green color of the butter — would mar the look of the muffin. But I used a batch of some really beautiful homemade butternut squash puree that was a vibrant orange, and the color of the muffins turned out fine. The pumpkin seed butter — which I forgot to salt, oops — was quite nutty, and I've been enjoying a tablespoon of it in my morning smoothies this week. </p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2021-12-29-muffin.jpg"></p>
+
+<p>If I were to make these again — and frankly, I probably will because they're really great — I would probably make 8-9 muffins rather than 12 as they're quite small. That's really my only complaint with this recipe. Does it give me the 20 grams of protein of a protein bar? No. But does it wreck my innards like an overdoes of whey does? No! </p>
+
+<p>Two tablespoons of collagen doesn't really add that much protein to a muffin, but I probably will start incorporating it into future recipes.</p>
+
+
