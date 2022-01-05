@@ -1,5 +1,5 @@
 ---
-- title: All Purpose
+- title: All Purpose Flour
   description: All-purpose flour is a general use wheat flour, and as the name suggests, it is suitable for all types of baked goods. Due to the bran removal in the milling process, this flour is often enriched with vitamins and minerals.
   category: flour
   calories: 455
@@ -11,7 +11,7 @@
   fat: 1.2
   caffeine: 0
   gluten: Yes
-- title: Almond
+- title: Almond Flour
   description: Almond flour is simply almonds that have been ground down to a small particle size. Baking with almond flour not only imparts the nutritional elements of the almond, but helps with moisture retention and structure.
   category: flour
   calories: 648
@@ -23,7 +23,7 @@
   fat: 56
   caffeine: 0
   gluten: No
-- title: Amaranth
+- title: Amaranth Flour
   description: Amaranth is often used in combination with other flours. (There is not a lot of research on how much to use, but probably no more than 20% of the flour should be amaranth.) It has a nutty flavor. It is also very high in lysine.
   category: flour
   calories: 648
@@ -35,7 +35,7 @@
   fat: 56
   caffeine: 0  
   gluten: No 
-- title: Brown rice
+- title: Brown Rice Flour
   description: Brown rice flour is made from milling brown rice. It is often used as an alternative to wheat flour in gluten-free baking (although it is used in combination with other flours to aid with structure and moisture retention)  
   category: flour
   calories: 574
@@ -83,7 +83,7 @@
   fat: 39
   caffeine: 0  
   gluten: No     
-- title: Buckwheat
+- title: Buckwheat Flour
   category: flour
   description: Despite its name, buckwheat has no relation to wheat. Often used in pancakes, it is best used in combination with other flours. It has a nutty flavor.
   calories: 402
@@ -95,7 +95,7 @@
   fat: 3.7
   caffeine: 0  
   gluten: No     
-- title: Chickpea
+- title: Chickpea Flour
   category: flour
   description: Chickpea flour is made from milling chickpeas (also known as garbanzo beans. This flour can aid in structure and binding and is good for gluten-free baking. It imparts a nutty flavor.
   calories: 356
@@ -107,7 +107,7 @@
   fat: 6.2
   caffeine: 0  
   gluten: No     
-- title: Coconut
+- title: Coconut Flour
   category: flour
   description: Coconut flour is milled from the meat of coconuts. Its function in baked products is as a boost to nutritional content. It can also be used to decrease the glycemic index in baked goods. It should comprise about 15% of flour usage.
   calories: 608
@@ -131,7 +131,7 @@
   fat: 4.4
   caffeine: 0  
   gluten: No     
-- title: Oat
+- title: Oat Flour
   category: flour
   description: Oat flour is milled from oatmeal. It can make up about 40% of the flour in a recipe.
   calories: 420
@@ -143,7 +143,7 @@
   fat: 9.5
   caffeine: 0  
   gluten: No     
-- title: Quinoa
+- title: Quinoa Flour
   category: flour
   description: Quinoa flour is made by milling the ancient ceral quinoa. It can add a bitter after-taste if used as more than 30% of the flour in a recipe. (For cakes and cookies, it should be no more than 10 and 20% respectively.)
   calories: 412
@@ -155,7 +155,7 @@
   fat: 6.8
   caffeine: 0  
   gluten: No     
-- title: Rice
+- title: Rice Flour
   category: flour
   description: Rice flour is made from milling white rice. It is often used as an alternative to wheat flour in gluten-free baking (although in combination with other flours to aid with structure and moisture retention).
   calories: 578
@@ -167,7 +167,7 @@
   fat: 2.2
   caffeine: 0  
   gluten: No     
-- title: Rye
+- title: Rye Flour
   category: flour
   description: Rye flour is produced by the milling of rye grain. Rye is closely related to wheat, and as such it should not be used in gluten-free recipes. (It does have far less gluten than wheat, however, when it comes to the structure and rise of baked goods.)
   calories: 356
@@ -179,7 +179,7 @@
   fat: 1.6
   caffeine: 0  
   gluten: Yes     
-- title: Semolina
+- title: Semolina Flour
   category: flour
   description: Semolina is a course flour made from high protein durum wheat. It adds a nutty flavor, as well as contributes a yellow color to the final product (typically pasta).
   calories: 601
@@ -191,7 +191,7 @@
   fat: 1.8
   caffeine: 0  
   gluten: Yes     
-- title: Sorghum
+- title: Sorghum Flour
   category: flour
   description: Sorghum flour is a powder made from grinding the sorghum kernel. It is used in combination with other flours to help develop structure in gluten-free baked goods.
   calories: 434
@@ -203,7 +203,7 @@
   fat: 4
   caffeine: 0  
   gluten: No     
-- title: Tapioca
+- title: Tapioca Flour
   category: flour
   description: Tapioca flour is obtained from the roots of the cassava plant (and therefore also known as cassava flour). It can function in a baked good to aid with thickening and adhesion, as well as moisture retention.
   calories: 428
@@ -215,9 +215,9 @@
   fat: 0
   caffeine: 0  
   gluten: No     
-- title: Whole Wheat
+- title: Whole Wheat Flour
   category: flour
-  description: 
+  description: Whole wheat flour is the powder obtained from milling (typically) hard red wheat. It has a shorter shelf life than all purpose flour because of the oil in the bran and germ.
   calories: 405
   weight per cup: 120 
   protein: 16
@@ -226,72 +226,199 @@
   sugar: 0
   fat: 3
   caffeine: 0  
-  gluten: Yes     
-- title: Applesauce
-  description: fruit
-  calories: 
-  weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat:
-  caffeine: 0  
-  gluten: No     
+  gluten: Yes         
 - title: Butter
-  description: fat
-  calories: 
+  category: fat
+  description: Solidified fat from churned cream.
+  calories: 1632
   weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat: 
+  protein: 1.6
+  carbohydrates: 0
+  fiber: 0
+  sugar: 0
+  fat: 192
   caffeine: 0  
-  gluten: No     
-- title: Banana
-  description: fruit
-  calories: 
+  gluten: No            
+- title: Canola Oil
+  category: fat
+  description: Vegetable oil derived from rapeseed.
+  calories: 1984
   weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat:
-  caffeine: 0  
-  gluten: No     
-- title: Pumpkin
-  description: fruit
-  calories: 
+  protein: 0
+  carbohydrates: 0
+  fiber: 0
+  sugar: 0
+  fat: 224
+  caffeine: 0 
+  gluten: No 
+- title: Avocado Oil
+  category: fat
+  description: Vegetable oil derived from avocado.
+  calories: 1984
   weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat: 
-  caffeine: 0  
-  gluten: No     
-- title: White Miso Paste
-  description: add-in
-  calories: 
+  protein: 0
+  carbohydrates: 0
+  fiber: 0
+  sugar: 0
+  fat: 224
+  caffeine: 0 
+  gluten: No 
+- title: Olive Oil
+  category: fat
+  description: Vegetable oil derived from olives.
+  calories: 1904
   weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat:
-  caffeine: 0  
-  gluten: No     
-- title: Espresso Powder
-  description: add-in
-  calories: 
+  protein: 0
+  carbohydrates: 0
+  fiber: 0
+  sugar: 0
+  fat: 224
+  caffeine: 0 
+  gluten: No 
+- title: Tahini
+  category: fat
+  description: Butter derived from sesame seeds.
+  calories: 1424
   weight per cup:  
-  protein: 
-  carbohydrates: 
-  fiber: 
-  sugar: 
-  fat: 
-  caffeine:   
-  gluten: No                                              
+  protein: 41.6
+  carbohydrates: 51.2
+  fiber: 11.2
+  sugar: 0
+  fat: 128
+  caffeine: 0 
+  gluten: No 
+- title: Peanut Butter
+  category: fat
+  description: Butter derived from peanuts.
+  calories: 1504
+  weight per cup:  
+  protein: 56
+  carbohydrates: 62.4
+  fiber: 14.4
+  sugar: 17.6
+  fat: 128
+  caffeine: 0 
+  gluten: No  
+- title: Almond Butter
+  category: fat
+  description: Butter derived from almonds.
+  calories: 1568
+  weight per cup:  
+  protein: 54.4
+  carbohydrates: 48
+  fiber: 25.6
+  sugar: 11.2
+  fat: 142.4
+  caffeine: 0 
+  gluten: No  
+- title: Coconut Oil
+  category: fat
+  description: Butter derived from coconut.
+  calories: 1936
+  weight per cup:  
+  protein: 0
+  carbohydrates: 0
+  fiber: 0
+  sugar: 0
+  fat: 208
+  caffeine: 0 
+  gluten: No 
+- title: Pumpkin Seed Butter
+  category: fat
+  description: Butter derived from pepitas or pumpkin seeds.
+  calories: 1520
+  weight per cup:  
+  protein: 64
+  carbohydrates: 48
+  fiber: 16
+  sugar: 24
+  fat: 128
+  caffeine: 0 
+  gluten: No
+- title: Granulated Sugar
+  category: sugar
+  description: White sugar, processed from cane or beet sugar.
+  calories: 768
+  weight per cup:  
+  protein: 0
+  carbohydrates: 201.6
+  fiber: 0
+  sugar: 201.6
+  fat: 0
+  caffeine: 0 
+  gluten: No  
+- title: Honey
+  category: sugar
+  description: A sweet, viscous food made by bees.
+  calories: 1024
+  weight per cup:  
+  protein: 0
+  carbohydrates: 272
+  fiber: 0
+  sugar: 272
+  fat: 0
+  caffeine: 0 
+  gluten: No 
+- title: Maple Syrup
+  category: sugar
+  description: A sweet, viscous food made from maple tree sap.
+  calories: 832
+  weight per cup:  
+  protein: 0
+  carbohydrates: 208
+  fiber: 0
+  sugar: 208
+  fat: 0
+  caffeine: 0 
+  gluten: No  
+- title: Molasses
+  category: sugar
+  description: A sweet, viscous substance made from refining beet or cane sugar.
+  calories: 976
+  weight per cup:  
+  protein: 0
+  carbohydrates: 252
+  fiber: 0
+  sugar: 252
+  fat: 0
+  caffeine: 0 
+  gluten: No 
+- title: Agave Syrup
+  category: sugar
+  description: A sweet, viscous substance made from refining agave.
+  calories: 1008
+  weight per cup:  
+  protein: 0
+  carbohydrates: 254.5
+  fiber: 0
+  sugar: 225.6
+  fat: 0
+  caffeine: 0 
+  gluten: No  
+- title: Monkfruit Sweetener
+  category: sugar
+  description: A sugar made from the monkfruit, often packaged with erythritol.
+  calories: 0
+  weight per cup:  
+  protein: 0
+  carbohydrates: 192
+  fiber: 0
+  sugar: 0
+  fat: 0
+  caffeine: 0 
+  gluten: No 
+- title: Brown Sugar
+  category: sugar
+  description: A sugar coated with molasses.
+  calories: 528
+  weight per cup:  
+  protein: 0
+  carbohydrates: 417.6
+  fiber: 0
+  sugar: 417.6
+  fat: 0
+  caffeine: 0 
+  gluten: No                  
+
 
 

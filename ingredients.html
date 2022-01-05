@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<main class="content" role="main">        
+        
+<h5 class="index-headline featured"><span>The Great Muffin Experiment: Ingredients</span></h5>              
+
+{% assign ingredients = site.data.ingredients %}
+{% assign ingredients = ingredients | sort:"title" %}
+
+<!-- Listing -->
+
+{% for ingredient in ingredients %}
+
+<p><strong>{{ ingredient.title }}</strong>: </p>
+
+<p><em>Description: {{ ingredient.description }}</em></p>
+
+<p style="font-size:18px">Category: {{ ingredient.category }} &nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ ingredient.calories }} per cup &nbsp;&nbsp;·&nbsp;&nbsp;Protein: {{ ingredient.protein }} grams&nbsp;&nbsp;·&nbsp;&nbsp;Carbohydrates: {{ ingredient.carbohydrates }} grams&nbsp;&nbsp;·&nbsp;&nbsp;Sugar: {{ ingredient.sugar }} grams&nbsp;&nbsp;·&nbsp;&nbsp;Fiber: {{ ingredient.fiber }} grams&nbsp;&nbsp;·&nbsp;&nbsp;Fat: {{ ingredient.fat }} grams</p>
+
+<hr >
+{% endfor %}
+
+<p><em>Nutrition data derived from <a href="http://nutritionix.com">Nutritionix.com</em></a></p>
