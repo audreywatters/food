@@ -489,5 +489,36 @@
   calories: 108
   preptime: 45
   cooktime: 20
-  servings: 12     
+  servings: 12 
+- title: Grain-Free Apple Cinnamon Muffins
+  description: This is based on the recipe for grain-free apple cinnamon muffins on <a href="https://www.theroastedroot.net/grain-free-apple-cinnamon-muffins-paleo/">the Roasted Root website</a>.
+  category: muffins
+  ingredients:
+    - 1 1/4 c almond flour
+    - 3/4 c tapioca flour
+    - 2 tsp cinnamon
+    - 1/2 tsp baking soda
+    - 1/2 tsp baking powder
+    - 1/2 tsp salt 
+    - 2 eggs
+    - 1/2 c coconut milk
+    - 2 tbs coconut oil, melted
+    - 1/4 c maple syrup
+    - 1 tsp vanilla extract
+    - 1 tbs lemon juice
+    - 1 c applesauce, unsweetened
+  cuisine: American 
+  date: 2022-01-12
+  instructions:
+    - Preheat oven to 350 and line muffin tins with paper liners.
+    - In a medium bowl, whisk together the dry ingredients (flours, baking powder and soda, spices, salt).
+    - In a large bowl, combine the wet ingredients. Whisk until blended.
+    - Add the wet to the dry and stir until just combined.
+    - Fill muffin tins.
+    - Bake for 25-30 minutes.
+    - Allow to cool for a couple of minutes, then remove from muffin tins and transfer to a wire rack to cool completely.
+  calories: 147
+  preptime: 10
+  cooktime: 30
+  servings: 12        
 

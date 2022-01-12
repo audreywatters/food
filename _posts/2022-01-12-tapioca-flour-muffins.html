@@ -1,0 +1,76 @@
+---
+layout: post
+title: "Grain-Free Muffins"
+date: 2022-01-12 15:15:00 +0000
+tags: muffins
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 10</strong> (<a href="#recipe">Jump to the Recipe</a>)</em></p>
+
+<p>One of the primary ways in which I'm experimenting with my muffin-making is by trying different kinds of flours. Me, I don't have any particular issue with gluten. After an elimination diet, I would describe myself as &quot;gluten sensitive&quot; perhaps, but only at particularly high quantities of bread. (And aren't we all, then?!) That said, I am interested in trying other flours for both health and flavor reasons. </p>
+
+<p>This bake was my first time using tapioca flour, also known as cassava flour.</p>
+
+<p>I do not like tapioca — or any custard or pudding, for that matter. I abhor it, honestly. And I don't like items that have that tapioca-y consistency. (I'm a writer. I need to find a better way of describing it.) Kin often laughs about the time that I bit into some sweet potato dim sum that, I think, had taro in it. Friends, I had to spit it out into my napkin. I couldn't chew it or swallow it. I just couldn't. </p>
+
+<p>So not surprisingly, I wasn't thrilled with the consistency of these muffins (something that was slightly improved by freezing them and eating them mushed together with granola and yogurt). </p>
+
+<p>Nonetheless, I'm intrigued by the possibility of grain-free cooking as I have several fitness-friends who can either neither nuts nor grains. Obviously, as this recipe uses almond flour, it wouldn't work for them. But I will probably experiment with tapioca flour again. I mean, I have three-quarters of a bag left. The trick now is to bake with enough to use the flour but not <em>experience</em> the flour.</p>
+
+<p>Another drawback with tapioca flour — one more related to my particular dietary needs: it doesn't have a lot of protein. I intended on adding a couple of tablespoons of collagen to this batch, but I totally forgot. (I am probably going to start adding collagen to all the muffins I make, as I'm eating less meat in 2022 and no protein bars. And yes, I know where collagen comes from.) I have created <a href="http://food.audreywatters.com/ingredients.html">a list of the ingredients</a> I'm using in my muffins — it's a work-in-progress, for sure — that includes calories and protein and the like. I've found it useful in coming up with recipes and in making substitutions with certain macros in mind.</p>
+
+<p>Almond flour, I would say, is becoming a baking staple for me. <a href="http://food.audreywatters.com/2021/12/29/superhero-muffins">The superhero muffins</a> that I'm also making regularly use a lot of almond and oat flour. Both of those have significantly more protein than tapioca flour.</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Grain-Free Apple Cinnamon Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>The original recipe calls for grated apple. Thanks to the abundance of apples in the fruit CSA, I used some of the applesauce I've made and frozen. The apple flavor was really terrific on these. They were very moist — perhaps a little heavy, but that's often the case with baked goods made with applesauce, I find.</p>
+
+<p>I also added baking powder in order to get a better rise. I know that the baking soda and lemon juice in the original should suffice. But that recipe said &quot;these won't rise,&quot; and dammit, I wanted some lift.</p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2022-01-12-muffin.jpg"></p>
+
+<p>They still came out rather flat, as you can see.</p>
+
+<p>Finally, I also increased the the cooking time substantially from the original recipe. They weren't done after 25 minutes. Again, this is probably the moisture content from the applesauce.</p>
+
+
