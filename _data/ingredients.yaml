@@ -418,7 +418,65 @@
   sugar: 417.6
   fat: 0
   caffeine: 0 
-  gluten: No                  
-
-
+  gluten: No 
+- title: Applesauce
+  category: fruit
+  description: Unsweetened applesauce, made from boiling and pureeing apples, can be used in lieu of all or some of the fat in a recipe. (The consistency and the sweetness of the bake will change.)
+  calories: 102
+  weight per cup:  
+  protein: 0.4
+  carbohydrates: 27
+  fiber: 2.7
+  sugar: 23
+  fat: .2
+  caffeine: 0 
+  gluten: No 
+- title: Pear Puree 
+  category: fruit
+  description: Unsweetened pear sauce, made from boiling and pureeing pears, can be used in lieu of all or some the fat in a recipe. (The consistency and the sweetness of the bake will change.)
+  calories: 162
+  weight per cup:  
+  protein: 0.4
+  carbohydrates: 43
+  fiber: 3
+  sugar: 36
+  fat: 0.4
+  caffeine: 0 
+  gluten: No                      
+- title: Coconut Sugar
+  category: sugar
+  description: A sugar made from coconut.
+  calories: 743
+  weight per cup: 192
+  protein: 0
+  carbohydrates: 192
+  fiber: 0
+  sugar: 192
+  fat: 0
+  caffeine: 0 
+  gluten: No 
+- title: Banana 
+  category: fruit
+  description: Bananas can be used in lieu of all or some the fat in a recipe. (The consistency and the sweetness of the bake will change.)
+  calories: 105
+  weight per cup:  
+  protein: 1.3
+  carbohydrates: 27
+  fiber: 3.1
+  sugar: 14
+  fat: 0.4
+  caffeine: 0 
+  gluten: No  
+- title: Pumpkin Puree 
+  category: fruit
+  description: Pumpkin puree, made from roasted and pureed pumpkin (or winter squash) can be used in lieu of all or some the fat in a recipe. (The consistency and the sweetness of the bake will change.)
+  calories: 83
+  weight per cup:  
+  protein: 2.7
+  carbohydrates: 20
+  fiber: 7.1
+  sugar: 8.1
+  fat: 0.7
+  caffeine: 0 
+  gluten: No   
 
