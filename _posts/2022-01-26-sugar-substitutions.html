@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Sugar Substitutions in Muffins"
+date: 2022-01-26 12:15:00 +0000
+tags: 
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 11</strong> (<a href="#recipe">Jump to the Recipe</a>)</em></p>
+
+<p>A month or so ago, I was worried that we'd never finish all the fruit I had in the freezer, as each week, we received a new boxful from the CSA. While I do still have quite a bit of apple- and pear sauce in there, along with pumpkin puree and a fair number of pear/apple/persimmon crumbles, I finished off the last of the frozen peaches in our smoothies this morning. The fruit we're getting this time of year is citrus — more conducive to juicing, in my opinion, than baking. That said, I've tried to think of ways that I can bake with oranges, and of course, that means I had to try to make some muffins.</p>
+
+<p>This was yet another of those times when I used a recipe for inspiration but made way too many alterations to label this project &quot;scientific&quot; in its experimentation. (I changed the flour from all purpose to whole wheat pastry. I had ricotta on hand, having made white pizza a few nights prior, which I used instead of sour cream. I substituted tahini for the butter. I used agave syrup instead of sugar. I added cacao nibs. I left off the glaze.) That said, this was probably one of the best batches of muffins I've made so far — a relief as this afternoon, I'll go pick up the vegetable and fruit boxes and will have more citrus to consume.</p>
+
+<h2>Sugar Substitutions</h2>
+
+<p>The funny thing about making sugar substitutions is that, at the end of the day (or digestion), it's still sugar. Oh sure, folks might label a recipe &quot;healthy&quot; as it doesn't contain <em>granulated</em> sugar; but sugar alternatives are still sugar (as far as macronutrients go, at least). </p>
+
+<p>As always, it's worth thinking about specific goals with adjusting recipes to make them &quot;healthy.&quot; Are you simply swapping out something that sounds better but might not actually be better? (Aspartame. Stevia. I'm suspicious.) Just as importantly, you have to understand <a href="https://www.sugar.org/blog/sugar-in-baking-what-bakers-need-to-know/">how the sugar functions</a> because it's not simply to add sweetness to a recipe. Sugar can add brownness, crispness, moisture, or volume, for example. So getting rid of or <a href="https://www.tasteofhome.com/collection/reducing-sugar-in-recipes/">reducing</a> the granulated sugar might require <a href="https://www.bobsredmill.com/blog/baking-101/sugar-substitutes-baking/">other adjustments</a> to a recipe — adding more or less liquid, turning down the oven temperature. </p>
+
+<p><a href="https://www.myfrugalhome.com/granulated-sugar-substitutes/">Sugar alternatives</a> can include honey, maple syrup, agave syrup, and monk sugar. (I've listed these <a href="http://food.audreywatters.com/ingredients.html">in my Ingredients database</a>.) Often, I find that I can simply reduce the amount of sugar in a muffin recipe without seeing any huge difference. But I don't have a huge sweet tooth, so that's just me. </p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Orange Ricotta Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2022-01-26-muffin.jpg"></p>
+
+
+
+

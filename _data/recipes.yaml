@@ -520,5 +520,34 @@
   calories: 147
   preptime: 10
   cooktime: 30
-  servings: 12        
+  servings: 12   
+- title: Orange Ricotta Muffins
+  description: This is based on the recipe for orange sour cream muffins on <a href="https://damndelicious.net/2012/07/02/muffin-monday-orange-sour-cream-muffins-with-zesty/">the Damn Delicious website</a>.
+  category: muffins
+  ingredients:
+    - 1 3/4 c whole wheat pastry flour
+    - 1 tbs baking powder
+    - 2 tbs collagen peptides
+    - 1/2 tsp salt 
+    - 1/4 c tahini
+    - 1 c ricotta
+    - 1/3 c agave syrup
+    - 1 egg
+    - 1/4 c freshly squeezed orange juice
+    - zest of one orange
+    - 1/4 c cacao nibs
+  cuisine: American 
+  date: 2022-01-26
+  instructions:
+    - Preheat oven to 375 and line muffin tins with paper liners.
+    - In a medium bowl, whisk together the dry ingredients (flour, baking powder and soda, spices, salt).
+    - In a large bowl, combine the wet ingredients (tahini, ricotta, egg, OJ, orange zest, agave syrup). Whisk until blended.
+    - Add the wet to the dry and stir until just combined. Stir in the cacao nibs.
+    - Fill muffin tins.
+    - Bake for 16-20 minutes.
+    - Allow to cool for a couple of minutes, then remove from muffin tins and transfer to a wire rack to cool completely.
+  calories: 177
+  preptime: 10
+  cooktime: 20
+  servings: 12         
 
