@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Caffeinated Muffins"
+date: 2022-02-02 12:15:00 +0000
+tags: 
+image: 
+imagecredits: 
+---
+<p><em><strong>The Great Muffin Experiment, No. 12</strong> (<a href="#recipe">Jump to the Recipe</a>)</em></p>
+
+<p>Several years ago, I decided to quit drinking coffee. I didn't like being addicted to caffeine, as I was traveling all the time and hated having to find a cup of coffee first thing each morning in a strange city or hotel so that the withdrawals would cease. I never quit caffeine altogether; I still drank tea. But I avoided coffee… until recently. I read that there were benefits to working out caffeinated — indeed one of the first protein supplement companies I looked into tried to sell me on the whole &quot;pre-workout&quot; thing: a big jolt of caffeine to get the heart pumping (and skin tingling). Instead of a supplement, I opted to just drink a cup of coffee before heading to the gym. (And now that it's cold in the morning, I pack a thermos.) </p>
+
+<p>I also tried a brand of protein bars with caffeine in them, but they were pretty gross. Nonetheless, I've thought about adding caffeine in some form to my muffins — a bit silly since I eat a muffin after I workout. But whatever.</p>
+
+<p>There's a bit of caffeine in the cacao nibs I've added to my <a href="http://food.audreywatters.com/2022/01/26/sugar-substitutions">orange ricotta muffins</a> and to my <a href="http://food.audreywatters.com/2021/10/27/the-tyrany-of-cico-with-muffins">chocolate beet muffins</a>. And I have some espresso powder in the pantry that I might play around with at some point. But this is a recipe for almond matcha muffins, and truth be told, the point of these is much less the caffeine — not terribly much in matcha — and more how wonderfully green they are.</p>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2022-02-02-muffin.jpg"></p>
+
+<p>They're green because of the matcha, obviously. But I also added avocado — yes, avocado — in lieu of the butter that the original recipe called for. (I had a bunch of avocados from the CSA, and someone told me you can freeze them. Sure enough, you can. But would you actually want to <em>eat</em> a thawed one? No. You wouldn't. So baked good it becomes.)</p>
+
+{% assign recipes = site.data.recipes %}
+{% for recipe in recipes %}
+{% if recipe.title == "Almond Matcha Muffins" %}
+	{% assign title = recipe.title %}
+	{% assign description = recipe.description %}
+	{% assign category = recipe.category %}
+	{% assign ingredients = recipe.ingredients %}
+	{% assign cuisine = recipe.cuisine %}
+	{% assign date = recipe.date %}
+	{% assign instructions = recipe.instructions %}
+	{% assign calories = recipe.calories %}
+	{% assign preptime = recipe.preptime %}
+	{% assign cooktime = recipe.cooktime %}
+	{% assign servings = recipe.servings %}
+{% endif %}
+{% endfor %}
+
+<p><h2 id="recipe">{{ title }}</h2></p>
+
+<p><em>{{ description }}</em></p>
+
+<p style="font-size:18px">Prep time: {{ preptime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Cooking time: {{ cooktime }} minutes&nbsp;&nbsp;·&nbsp;&nbsp;Servings: {{ servings }}&nbsp;&nbsp;·&nbsp;&nbsp;Calories: {{ calories }}</p>
+
+<p><strong>Ingredients:</strong></p>
+
+<ul>
+{% for ingredient in ingredients %}
+	<li>{{ ingredient }}</li>
+{% endfor %}
+</ul>
+
+<p><strong>Instructions:</strong></p>
+
+<ol>
+{% for instruction in instructions %}
+	<li>{{ instruction }}</li>
+{% endfor %}
+</ol>
+
+<p><img src="https://audreywatters.s3.amazonaws.com/2022-02-02-muffin2.jpg"></p>
+
+<p><h2>Some Baking Notes</h2></p>
+
+<p>I used monk fruit in these. I'm not super-keen on that <a href="http://food.audreywatters.com/2022/01/26/sugar-substitutions">sugar substitute</a> as I think it can cause gastrointestinal distress. But so far, I haven't had a problem eating these muffins. (I lowered the oven temperature as monk fruit does cause baked goods to brown quickly.) They're not terribly sweet. Nor are they particularly almond-y. When I make these again — and I will — I will definitely add more extract. The sliced almonds on the top are sort of useless, and I'll skip that next time. I pressed them down, but by the time I've frozen and thawed them and moved them in and out of storage containers, the topping has mostly fallen off. Meh.</p>
+
+
+
+

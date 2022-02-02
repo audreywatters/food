@@ -478,5 +478,17 @@
   sugar: 8.1
   fat: 0.7
   caffeine: 0 
-  gluten: No   
+  gluten: No  
+- title: Matcha Powder
+  category: add-in
+  description: Matcha powder is made from finely-ground green tea leaves.
+  calories: 0
+  weight per cup:  
+  protein: 0
+  carbohydrates: 0
+  fiber: 0
+  sugar: 0
+  fat: 0
+  caffeine: 8
+  gluten: No     
 

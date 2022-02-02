@@ -549,5 +549,36 @@
   calories: 177
   preptime: 10
   cooktime: 20
-  servings: 12         
+  servings: 12    
+- title: Almond Matcha Muffins
+  description: This is based on the recipe for almond matcha muffins on <a href="https://www.fitmittenkitchen.com/matcha-muffins/">the Fit Mitten Kitchen website</a>.
+  category: muffins
+  ingredients:
+    - 1 1/4 c gluten-free baking flour
+    - 1 c almond flour
+    - 1 1/4 tsp baking powder
+    - 1/2 tsp baking soda
+    - 1 1/2 tbsp matcha powder
+    - 2 tbs collagen peptides
+    - 1/2 tsp salt 
+    - 1/3 c mashed avocado
+    - 2 eggs
+    - 1/3 c monk fruit sugar substitute
+    - 3/4 c milk 
+    - 1/2 tsp almond extract
+    - 1/4 c sliced almonds 
+  cuisine: American 
+  date: 2022-02-02
+  instructions:
+    - Preheat oven to 350 and line muffin tins with paper liners.
+    - In a medium bowl, whisk together the dry ingredients.
+    - In a large bowl, combine the wet ingredients. Whisk until blended.
+    - Add the wet to the dry and stir until just combined. 
+    - Fill muffin tins. Press 1 tbs of almonds onto the top of each muffin.
+    - Bake for 16-20 minutes.
+    - Allow to cool for a couple of minutes, then remove from muffin tins and transfer to a wire rack to cool completely.
+  calories: 142
+  preptime: 10
+  cooktime: 20
+  servings: 12           
 
