@@ -3,7 +3,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Site settings
-title: "Food & Drink"
+title: "The Pelican Pantry"
 description: > # this means to ignore newlines until "email:"
 
 email: mail@audreywatters.com
