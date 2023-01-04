@@ -28,19 +28,7 @@ baseurl: ""
 twitter_handle: '@audreywatters'
 
 # social icons and sharing options
-social:
-  - icon:	twitter
-    url:	https://twitter.com/audreywatters
-    desc: Follow me on twitter
-
-  - icon:	facebook
-    url:	https://facebook.com/audreywatters
-    desc: Like me on facebook
-
-  - icon:	github
-    url:	https://github.com/audreywatters/food
-    desc: Fork me on github
-
+# social:
   - icon: rss
     url:  http://food.audreywatters.com/feed.xml
     desc: Subscribe
